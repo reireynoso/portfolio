@@ -1,11 +1,12 @@
 import React from 'react'
+import Header from './Header'
 
 const Home = () => {
     return (
         <div className="landing-page">
-            <h1 className="first-name">Reinald</h1>
-            <h3>Full Stack Web Developer</h3>
-            <h1 className="last-name">Reynoso</h1>
+            
+            <h1 className="lg-heading">Reinald <span className="last-name">Reynoso</span></h1>
+            <h2 className="sm-heading">Full Stack Web Developer</h2>
         </div>
     )
 }

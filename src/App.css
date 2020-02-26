@@ -1,3 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vh;
+}
+
+.landing-page {
+  /* padding: 20px; */
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing-page {
+  text-align: center;
+}
+
+.first-name, .last-name {
+  margin: 0;
+  font-size: 15vw;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

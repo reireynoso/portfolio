@@ -3,12 +3,35 @@ body, .App {
   width: 100vw;
 }
 
+/* Home Component */
+
 .landing-page, .nav {
   padding: 2%;
 }
 
 .lg-heading {
   font-size: 6rem;
+}
+
+/* Header Component */
+
+.page-links, .icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-links {
+  margin-top: 5%;
+}
+
+.icons {
+  margin: 0 40%;
+  margin-top: 2.5%
+}
+
+.links {
+  display: block;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

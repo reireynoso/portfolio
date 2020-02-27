@@ -10,8 +10,9 @@ const Header = () => {
             </div>
 
             <div className="icons">
-                <div>Somthing</div>
-                <div>Else</div>
+                <div><i class="fab fa-linkedin fa-2x"></i></div>
+                <div><i class="fab fa-github fa-2x"></i></div>
+                <div> <i class="fab fa-medium fa-2x"></i></div>
             </div>
         </div>
     )

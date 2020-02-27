@@ -24,8 +24,15 @@ body, .App {
   margin-top: 5%;
 }
 
+.page-links > a {
+  color: inherit; 
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-bottom: 3px solid black;
+}
+
 .icons {
-  margin: 0 40%;
+  margin: 0 35%;
   margin-top: 2.5%
 }
 

@@ -1,3 +1,12 @@
+/* html, body, #root {
+  margin: 0;
+  padding: 0
+}
+
+* {
+  box-sizing: border-box;
+} */
+
 body, .App {
   height: 100vh;
   width: 100vw;
@@ -13,6 +22,13 @@ body, .App {
   font-size: 6rem;
 }
 
+@media screen and (max-width: 750px) {
+
+  .landing-page {
+    text-align: center;
+  }
+}
+
 /* Header Component */
 
 .page-links, .icons {
@@ -21,7 +37,7 @@ body, .App {
 }
 
 .page-links {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .page-links > a {
@@ -55,3 +71,8 @@ body, .App {
     transform: rotate(360deg);
   }
 }
+
+
+/* @media screen and (max-width: 840px) {
+  
+} */

@@ -2,7 +2,8 @@
   font-size: 16px;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --bg-primary: #23232e;
+  /* --bg-primary: #23232e; */
+  --bg-primary: #355C7D;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
 }
@@ -12,10 +13,10 @@
   padding: 0;
 }
 
-/* body {
+body {
   color: var(--text-secondary);
   background-color: var(--bg-primary)
-} */
+}
 
 .App {
   height: 100vh;
@@ -32,10 +33,11 @@
 .landing-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+  text-align: center;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  padding: 2%;
+  padding: 5% 4%;
 }
 
 .lg-heading {
@@ -43,44 +45,27 @@
   margin-bottom: 2%;
 }
 
-@media screen and (max-width: 750px) {
-
-  .landing-page {
-    text-align: center;
-  }
+.logo {
+  margin-bottom: 3%;
 }
 
 /* Header Component */
 
-.nav {
+.nav, .logo, .page-links {
   display: flex;
   justify-content: center;
 }
 
 .page-links {
-  display: flex;
-  justify-content: center;
-}
-
-.page-links {
-  margin-top: 2%;
+  margin-top: 3%;
   border: 1px solid black;
   border-radius: 5px;
 }
 
-.page-links > a {
-  color: inherit; 
-  font-weight: bold;
-  font-size: 1.25rem;
-  text-decoration: none;
-  padding: 10px;
-  border-left: 1px solid black;
-}
-
 /* removes left border of first child */
-.page-links > a:first-child {
+/* .page-links > a:first-child {
   border-left: 0;
-}
+} */
 
 .page-links > a:hover {
   background-color: rgba(241, 241, 241, 0.849);
@@ -104,6 +89,41 @@
 }
 
 
-/* @media screen and (max-width: 840px) {
-  
-} */
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .page-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-links > a {
+    color: inherit; 
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 10px;
+    border-top: 1px solid black;
+  }
+
+  /* removes top border of first child */
+  .page-links > a:first-child {
+    border-top: 0;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 600px) {
+  .page-links > a {
+    color: inherit; 
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 10px;
+    border-left: 1px solid black;
+  }
+
+  /* removes left border of first child */
+  .page-links > a:first-child {
+    border-left: 0;
+  }
+}

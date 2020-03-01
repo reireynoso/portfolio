@@ -1,11 +1,11 @@
 :root {
   font-size: 16px;
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  /* --bg-primary: #23232e; */
-  --bg-primary: #355C7D;
+  --text-primary: #fff;
+  --text-secondary: #eece1a;
+  --bg-primary: #2A363B;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
+  --border-color: #fff;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   background-color: var(--bg-primary)
 }
 
@@ -35,14 +35,15 @@ body {
   flex-direction: column;
   /* align-items: center; */
   text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
   padding: 5% 4%;
 }
 
 .lg-heading {
   font-size: 4rem;
   margin-bottom: 2%;
+  color: var(--text-secondary); 
 }
 
 .logo {
@@ -58,20 +59,14 @@ body {
 
 .page-links {
   margin-top: 3%;
-  border: 1px solid black;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
 }
 
-/* removes left border of first child */
-/* .page-links > a:first-child {
-  border-left: 0;
-} */
-
 .page-links > a:hover {
-  background-color: rgba(241, 241, 241, 0.849);
+  background-color: var(--bg-secondary);
   transition: 0.2s ease-in;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -88,7 +83,6 @@ body {
   }
 }
 
-
 /* Small screens */
 @media only screen and (max-width: 600px) {
   .page-links {
@@ -102,7 +96,7 @@ body {
     font-size: 1.25rem;
     text-decoration: none;
     padding: 10px;
-    border-top: 1px solid black;
+    border-top: 1px solid var(--border-color);
   }
 
   /* removes top border of first child */
@@ -119,7 +113,7 @@ body {
     font-size: 1.25rem;
     text-decoration: none;
     padding: 10px;
-    border-left: 1px solid black;
+    border-left: 1px solid var(--border-color);
   }
 
   /* removes left border of first child */

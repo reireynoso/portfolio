@@ -38,22 +38,39 @@
 
 /* Header Component */
 
-.page-links, .icons {
+.nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.page-links {
+  display: flex;
+  justify-content: center;
 }
 
 .page-links {
   margin-top: 2%;
-  
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .page-links > a {
   color: inherit; 
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-decoration: none;
-  /* border-bottom: 3px solid black; */
+  padding: 10px;
+  border-left: 1px solid black;
+}
+
+/* removes left border of first child */
+.page-links > a:first-child {
+  border-left: 0;
+}
+
+.page-links > a:hover {
+  background-color: rgba(241, 241, 241, 0.849);
+  transition: 0.2s ease-in;
 }
 
 

@@ -9,11 +9,11 @@ const Header = () => {
                 <Link className="links" to="/About">About</Link>
             </div>
 
-            <div className="icons">
+            {/* <div className="icons">
                 <div><i class="fab fa-linkedin fa-2x"></i></div>
                 <div><i class="fab fa-github fa-2x"></i></div>
                 <div> <i class="fab fa-medium fa-2x"></i></div>
-            </div>
+            </div> */}
         </div>
     )
 }

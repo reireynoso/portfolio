@@ -1,7 +1,21 @@
+:root {
+  font-size: 16px;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
+
+/* body {
+  color: var(--text-secondary);
+  background-color: var(--bg-primary)
+} */
 
 .App {
   height: 100vh;

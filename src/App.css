@@ -34,16 +34,53 @@ body {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
+  overflow: hidden;
   text-align: center;
   border-top: 2px solid var(--border-color);
   border-bottom: 2px solid var(--border-color);
   padding: 5% 4%;
+  animation: slideInLeft 1s ease-in;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .lg-heading {
   font-size: 4rem;
   margin-bottom: 2%;
   color: var(--text-secondary); 
+  letter-spacing: 0.1ch;
+  animation: name 5s ease infinite, appear 3s ease-in;
+}
+
+/* lg-heading text appears after a delay */
+@keyframes appear {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* lg-heading infinite text color change */
+@keyframes name {
+  0%, 100% {
+    color: var(--text-secondary);
+  }
+  50% {
+    color: orange;
+  }
+}
+
+.sm-heading {
+  text-transform: uppercase;
 }
 
 .logo {
@@ -65,7 +102,16 @@ body {
 
 .page-links > a:hover {
   background-color: var(--bg-secondary);
-  transition: 0.2s ease-in;
+  transition: var(--transition-speed) ease-in;
+}
+
+.logo > i {
+  transform: rotate(0deg);
+  transition: var(--transition-speed);
+}
+
+.logo > i:hover {
+  transform: rotate(180deg);
 }
 
 @media (prefers-reduced-motion: no-preference) {

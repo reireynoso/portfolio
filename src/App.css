@@ -122,8 +122,28 @@ body {
   max-width: 30rem;
   height: 90%;
   align-self: center;
-  padding: 4rem;
-  opacity: 0.75
+  padding: 3rem;
+  opacity: 0.75;
+  overflow-y: scroll;
+}
+
+.image {
+  /* margin: auto; */
+}
+
+img.profile {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+.content-title {
+  border-bottom: 2px solid var(--border-color);
+  margin: 0 calc(100% - 96px) 20px 0;
+}
+
+.content-info {
+  letter-spacing: 1.25px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

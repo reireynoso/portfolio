@@ -25,6 +25,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
   justify-content: center;
 }
 
@@ -112,6 +113,17 @@ body {
 
 .logo > i:hover {
   transform: rotate(180deg);
+}
+
+/* About Component */
+
+.link-container {
+  background-color: var(--bg-secondary);
+  max-width: 30rem;
+  height: 90%;
+  align-self: center;
+  padding: 4rem;
+  opacity: 0.75
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -31,6 +31,11 @@ body {
   justify-content: center;
 }
 
+#linked-in {
+  color: rgb(113, 113, 230);
+  text-decoration: none;
+}
+
 /* Home Component */
 
 .landing-page {

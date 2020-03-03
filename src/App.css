@@ -5,6 +5,8 @@
   --bg-primary: #2A363B;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
+  --appear-speed: 3s;
+  --slide-speed: 1s;
   --border-color: #fff;
 }
 
@@ -40,7 +42,7 @@ body {
   border-top: 2px solid var(--border-color);
   border-bottom: 2px solid var(--border-color);
   padding: 5% 4%;
-  animation: slideInLeft 1s ease-in;
+  animation: slideInLeft var(--slide-speed) ease-in;
 }
 
 @keyframes slideInLeft {
@@ -57,7 +59,7 @@ body {
   margin-bottom: 2%;
   color: var(--text-secondary); 
   letter-spacing: 0.1ch;
-  animation: name 5s ease infinite, appear 3s ease-in;
+  animation: name 5s ease infinite, appear var(--appear-speed) ease-in;
 }
 
 /* lg-heading text appears after a delay */
@@ -119,31 +121,33 @@ body {
 
 .link-container {
   background-color: var(--bg-secondary);
-  max-width: 30rem;
-  height: 90%;
+  max-width: 40rem;
+  min-width: 10rem;
+  height: 100%;
   align-self: center;
   padding: 3rem;
   opacity: 0.75;
   overflow-y: scroll;
 }
 
-.image {
-  /* margin: auto; */
-}
 
 img.profile {
   display: block;
   margin: auto;
-  width: 90%;
+  width: 60%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  animation: appear var(--appear-speed) ease-in;
 }
 
-.content-title {
-  border-bottom: 2px solid var(--border-color);
-  margin: 0 calc(100% - 96px) 20px 0;
-}
+/* .content-title {
+  border-bottom: 1px solid var(--border-color);
+  margin: 0 calc(100% - 150px) 20px 0;
+} */
 
-.content-info {
+.content-intro {
   letter-spacing: 1.25px;
+  animation: slideInLeft var(--slide-speed) ease-in;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -181,6 +185,15 @@ img.profile {
   .page-links > a:first-child {
     border-top: 0;
   }
+
+  .content-title {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 20px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    text-align: center;
+    /* justify-content: center; */
+  }
 }
 
 /* Large screens */
@@ -197,5 +210,10 @@ img.profile {
   /* removes left border of first child */
   .page-links > a:first-child {
     border-left: 0;
+  }
+
+  .content-title {
+    border-bottom: 1px solid var(--border-color);
+    margin: 0 calc(100% - 150px) 20px 0;
   }
 }

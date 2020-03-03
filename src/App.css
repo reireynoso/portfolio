@@ -45,6 +45,16 @@ body {
   animation: slideInLeft var(--slide-speed) ease-in;
 }
 
+.home-icon{
+  position: absolute;
+  right: 1.2rem;
+  top: 1.2rem;
+}
+
+.home-icon > a{
+  color: inherit;
+}
+
 @keyframes slideInLeft {
   0% {
     transform: translateX(-1000px);
@@ -120,6 +130,7 @@ body {
 /* About Component */
 
 .link-container {
+  position: relative;
   background-color: var(--bg-secondary);
   max-width: 40rem;
   min-width: 10rem;

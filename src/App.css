@@ -130,7 +130,6 @@ body {
   overflow-y: scroll;
 }
 
-
 img.profile {
   display: block;
   margin: auto;
@@ -139,11 +138,6 @@ img.profile {
   margin-bottom: 20px;
   animation: appear var(--appear-speed) ease-in;
 }
-
-/* .content-title {
-  border-bottom: 1px solid var(--border-color);
-  margin: 0 calc(100% - 150px) 20px 0;
-} */
 
 .content-intro {
   letter-spacing: 1.25px;
@@ -189,10 +183,9 @@ img.profile {
   .content-title {
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 20px;
-    /* margin-left: 100px;
-    margin-right: 100px; */
+    margin-left: calc(50% - 80px);
+    margin-right: calc(50% - 80px);
     text-align: center;
-    /* justify-content: center; */
   }
 }
 

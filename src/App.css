@@ -190,17 +190,20 @@ img.project-image {
   margin-bottom: 20px;
 }
 
+.project-description {
+  letter-spacing: 1.25px;
+}
+
 .project-container {
   border-bottom: 1px solid var(--border-color)
 }
-
 
 .project-buttons {
   display: flex;
   justify-content: center;
 }
 
-.project-buttons > button {
+.project-buttons > a > button {
   background-color: transparent;
   color: var(--text-primary);
   outline: 0;
@@ -209,6 +212,13 @@ img.project-image {
   padding: 10px 15px;;
   margin-right: 10px;
   font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.project-buttons > button:hover {
+  background-color: rgb(230, 225, 225);
+  transition: 0.3s ease;
 }
 
 

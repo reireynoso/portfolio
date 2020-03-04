@@ -60,6 +60,16 @@ body {
   color: inherit;
 }
 
+.lg-heading {
+  font-size: 4rem;
+  margin-bottom: 2%;
+  color: var(--text-secondary); 
+  letter-spacing: 0.1ch;
+  animation: name 5s ease infinite, appear var(--appear-speed) ease-in;
+}
+
+/* animations */
+
 @keyframes slideInLeft {
   0% {
     transform: translateX(-1000px);
@@ -76,14 +86,6 @@ body {
   100% {
     transform: translateX(0px);
   }
-}
-
-.lg-heading {
-  font-size: 4rem;
-  margin-bottom: 2%;
-  color: var(--text-secondary); 
-  letter-spacing: 0.1ch;
-  animation: name 5s ease infinite, appear var(--appear-speed) ease-in;
 }
 
 /* lg-heading text appears after a delay */
@@ -175,6 +177,41 @@ img.profile {
   animation: slideInRight var(--slide-speed) ease-in;
 }
 
+/* Project Component */
+
+img.project-image {
+  display: block;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.project-title, .project-description, .project-buttons {
+  margin-bottom: 20px;
+}
+
+.project-container {
+  border-bottom: 1px solid var(--border-color)
+}
+
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.project-buttons > button {
+  background-color: transparent;
+  color: var(--text-primary);
+  outline: 0;
+  border: 2px solid var(--text-primary);
+  border-radius: 5px;
+  padding: 10px 15px;;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -218,6 +255,14 @@ img.profile {
     margin-right: calc(50% - 80px);
     text-align: center;
   }
+
+  .project-content-title {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 20px;
+    margin-left: calc(50% - 65px);
+    margin-right: calc(50% - 65px);
+    text-align: center;
+  }
 }
 
 /* Large screens */
@@ -239,5 +284,10 @@ img.profile {
   .content-title {
     border-bottom: 1px solid var(--border-color);
     margin: 0 calc(100% - 150px) 20px 0;
+  }
+
+  .project-content-title {
+    border-bottom: 1px solid var(--border-color);
+    margin: 0 calc(100% - 130px) 20px 0;
   }
 }

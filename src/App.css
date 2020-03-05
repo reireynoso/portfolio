@@ -32,7 +32,7 @@ body {
   justify-content: center;
 }
 
-#linked-in {
+#linked-in, #medium-link, #medium-article-link {
   color: rgb(113, 113, 230);
   text-decoration: none;
 }

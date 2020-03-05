@@ -99,6 +99,15 @@ body {
   }
 }
 
+@keyframes load {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.65;
+  }
+}
+
 /* lg-heading infinite text color change */
 @keyframes name {
   0%, 100% {
@@ -156,6 +165,7 @@ body {
   padding: 3rem;
   opacity: 0.75;
   overflow-y: scroll;
+  animation: load 1s ease-in
 }
 
 img.profile {
@@ -229,6 +239,12 @@ img.project-image {
   width: 100%;
 }
 
+.blog-handle, .blog-handle div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .blog-handle, .blog-image {
   margin-bottom: 10px;
 }
@@ -299,8 +315,8 @@ img.project-image {
   .blog-content-title {
     border-bottom: 1px solid var(--border-color);
     margin-bottom: var(--mar-b-space);
-    margin-left: calc(50% - 65px);
-    margin-right: calc(50% - 65px);
+    margin-left: calc(50% - 45px);
+    margin-right: calc(50% - 45px);
     text-align: center;
   }
 }

@@ -195,10 +195,6 @@ img.project-image {
   letter-spacing: 1.25px;
 }
 
-.project-container {
-  border-bottom: 1px solid var(--border-color)
-}
-
 .project-buttons {
   display: flex;
   justify-content: center;
@@ -222,13 +218,30 @@ img.project-image {
   transition: 0.3s ease;
 }
 
+.project-container, .blog-container {
+  border-bottom: 1px solid var(--border-color)
+}
+
 /* Blog Component */
 
 .blog-image {
   display: block;
   width: 100%;
+}
+
+.blog-handle, .blog-image {
   margin-bottom: 10px;
 }
+
+.blog-title, .blog-description {
+  margin-bottom: var(--mar-b-space);
+}
+
+.blog-container a {
+  display: block;
+  margin-bottom: var(--mar-b-space);
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {

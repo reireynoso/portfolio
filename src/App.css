@@ -8,6 +8,7 @@
   --appear-speed: 3s;
   --slide-speed: 1s;
   --border-color: #fff;
+  --mar-b-space: 20px; 
 }
 
 * {
@@ -162,7 +163,7 @@ img.profile {
   margin: auto;
   width: 60%;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: var(--mar-b-space);
   animation: appear var(--appear-speed) ease-in;
 }
 
@@ -173,7 +174,7 @@ img.profile {
 
 .dev-icons {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: var(--mar-b-space);
   animation: slideInRight var(--slide-speed) ease-in;
 }
 
@@ -187,7 +188,7 @@ img.project-image {
 }
 
 .project-title, .project-description, .project-buttons {
-  margin-bottom: 20px;
+  margin-bottom: var(--mar-b-space);
 }
 
 .project-description {
@@ -219,6 +220,14 @@ img.project-image {
 .project-buttons > button:hover {
   background-color: rgb(230, 225, 225);
   transition: 0.3s ease;
+}
+
+/* Blog Component */
+
+.blog-image {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 
@@ -268,7 +277,15 @@ img.project-image {
 
   .project-content-title {
     border-bottom: 1px solid var(--border-color);
-    margin-bottom: 20px;
+    margin-bottom: var(--mar-b-space);
+    margin-left: calc(50% - 65px);
+    margin-right: calc(50% - 65px);
+    text-align: center;
+  }
+
+  .blog-content-title {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: var(--mar-b-space);
     margin-left: calc(50% - 65px);
     margin-right: calc(50% - 65px);
     text-align: center;
@@ -299,5 +316,10 @@ img.project-image {
   .project-content-title {
     border-bottom: 1px solid var(--border-color);
     margin: 0 calc(100% - 130px) 20px 0;
+  }
+
+  .blog-content-title {
+    border-bottom: 1px solid var(--border-color);
+    margin: 0 calc(100% - 90px) 20px 0;
   }
 }

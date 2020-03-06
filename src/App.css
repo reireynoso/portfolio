@@ -149,8 +149,9 @@ body {
   border-radius: 5px;
 }
 
-.page-links > a:hover {
-  background-color: var(--bg-secondary);
+.page-links > a:hover, .project-buttons > a > button:hover {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
   transition: var(--transition-speed) ease-in;
 }
 

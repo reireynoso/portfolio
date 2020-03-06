@@ -369,6 +369,7 @@ img.project-image {
 /* width */
 ::-webkit-scrollbar {
   width: 2px;
+  height: 0;
 }
 
 /* Track */

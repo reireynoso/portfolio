@@ -37,6 +37,10 @@ body {
   text-decoration: none;
 }
 
+#medium-link {
+  margin: 0;
+}
+
 /* Home Component */
 
 .landing-page {

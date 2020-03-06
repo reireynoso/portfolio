@@ -1,8 +1,10 @@
 import React from 'react'
+import HomeIcon from './HomeIcon'
 
 const Contact = () => {
     return (
-        <div>
+        <div className="link-container">
+            <HomeIcon/>
             Contact
         </div>
     )

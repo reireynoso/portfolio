@@ -55,10 +55,18 @@ body {
   animation: slideInLeft var(--slide-speed) ease-in;
 }
 
-.home-icon{
+/* .home-icon{
   position: absolute;
   right: 1.2rem;
   top: 1.2rem;
+} */
+
+.home-icon{
+  position: sticky;
+  /* right: calc((0.8 * 100%));
+  top: calc(8%); */
+  /* margin-top: 2%; */
+  /* margin-left: 68%; */
 }
 
 .home-icon > a{
@@ -161,7 +169,7 @@ body {
 /* About Component */
 
 .link-container {
-  position: relative;
+  /* position: relative; */
   background-color: var(--bg-secondary);
   max-width: 40rem;
   min-width: 10rem;

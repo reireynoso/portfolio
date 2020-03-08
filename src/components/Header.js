@@ -10,12 +10,6 @@ const Header = () => {
                 <Link className="links" to="/blogs">Blogs</Link>
                 <Link className="links" to="/contact">Contact</Link>
             </div>
-
-            {/* <div className="icons">
-                <div><i class="fab fa-linkedin fa-2x"></i></div>
-                <div><i class="fab fa-github fa-2x"></i></div>
-                <div> <i class="fab fa-medium fa-2x"></i></div>
-            </div> */}
         </div>
     )
 }

@@ -43,6 +43,29 @@ body {
 
 /* Home Component */
 
+.icons {
+  display: flex;
+  /* justify-content: center; */
+  /* border: 1px solid var(--border-color); */
+  /* border-radius: 10px; */
+  justify-content: space-around;
+  width: 10rem;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.icons > a {
+  padding: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.icons > a:hover{
+  background-color: var(--text-primary);
+  color: var(--bg-primary); 
+  transition: var(--transition-speed) ease; 
+}
+
 .landing-page {
   display: flex;
   flex-direction: column;
@@ -55,25 +78,48 @@ body {
   animation: slideInLeft var(--slide-speed) ease-in;
 }
 
-.home-icon{
+/* .home-icon{
   position: fixed;
   background-color: var(--bg-secondary);
   display: flex;
   border: 2px var(--border-color) solid;
   border-radius: 40px;
+  z-index: 99;
 }
 
 .home-icon > a{
   color: inherit;
   display: block;
   align-self: center;
-  /* margin-bottom: 15px; */
-}
+  margin-bottom: 15px;
+} */
 
 /* .home-icon > a:last-child{
   margin-bottom: 0;
-}  */
+}   */
 
+.home-icon{
+  position: fixed;
+  background-color: var(--bg-secondary);
+  display: flex;
+  border: 2px var(--border-color) solid;
+  border-radius: 40px;
+  top: 2rem;
+  right: 2rem;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.home-icon > a{
+  color: inherit;
+  display: block;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.home-icon > a:last-child{
+  margin-bottom: 0px;
+}
 
 
 .lg-heading {
@@ -411,28 +457,30 @@ img.project-image {
 
 /* Accounted for HomeIcon component */
 
-@media only screen and (max-width: 830px) {
+/* @media only screen and (max-width: 930px) {
   .home-icon{
     top: 1.25rem;
-    right: 1.2rem;
+    right: 10rem;
+    margin-left: 60%;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     padding: 5px 10px;
+    position: fixed;
   }
 
   .home-icon > a{
     color: inherit;
     display: block;
     align-self: center;
-    margin-right: 15px;
+    margin-bottom: 15px;
   }
   
   .home-icon > a:last-child{
-    margin-right: 0;
+    margin-bottom: 0;
   }
-} 
+}  */
 
-@media only screen and (min-width: 831px) {
+/* @media only screen and (min-width: 931px) {
   .home-icon{
     position: fixed;
     background-color: var(--bg-secondary);
@@ -455,27 +503,27 @@ img.project-image {
   .home-icon > a:last-child{
     margin-bottom: 0px;
   }
-}
+} */
 
 /* Scroll Bar */
 
 /* width */
 ::-webkit-scrollbar {
-  width: 1px;
+  width: 0px;
   height: 0;
 }
 
 /* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
+/* ::-webkit-scrollbar-track {
+  background: black;
+} */
 
 /* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
+/* ::-webkit-scrollbar-thumb {
+  background: silver;
+} */
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
+} */

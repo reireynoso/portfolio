@@ -12,6 +12,11 @@ const Home = () => {
                 <h2 className="sm-heading">Full Stack Web Developer and Educator</h2>
             </div>
             <Header/>
+            <div className="icons">
+                <a href="" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="" target="_blank"> <i class="fab fa-medium fa-2x"></i></a>
+            </div>
         </div>
     )
 }

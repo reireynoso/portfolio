@@ -99,26 +99,29 @@ body {
 }   */
 
 .home-icon{
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   background-color: var(--bg-secondary);
   display: flex;
   border: 2px var(--border-color) solid;
   border-radius: 40px;
-  top: 2rem;
-  right: 2rem;
-  flex-direction: column;
+  top: 0px;
+  /* right: 2rem;  */
+  /* flex-direction: column; */
   padding: 10px;
+  width: 8rem;
+  margin: auto;
 }
 
 .home-icon > a{
   color: inherit;
   display: block;
   align-self: center;
-  margin-bottom: 15px;
+  margin-right: 15px;
 }
 
 .home-icon > a:last-child{
-  margin-bottom: 0px;
+  margin-right: 0px;
 }
 
 
@@ -291,7 +294,7 @@ img.project-image {
 }
 
 .project-container, .blog-container {
-  border-bottom: 1px solid var(--border-color)
+  border-bottom: 1px solid var(--border-color);
 }
 
 /* Blog Component */
@@ -384,7 +387,7 @@ img.project-image {
     margin-bottom: 20px;
     margin-left: calc(50% - 80px);
     margin-right: calc(50% - 80px);
-    text-align: center;
+    /* text-align: center; */
   }
 
   .project-content-title {
@@ -392,7 +395,11 @@ img.project-image {
     margin-bottom: var(--mar-b-space);
     margin-left: calc(50% - 65px);
     margin-right: calc(50% - 65px);
-    text-align: center;
+    /* text-align: center; */
+  }
+
+  .project-title, .project-description, .blog-content-title, .content-title, .project-content-title {
+    text-align: center
   }
 
   .blog-content-title {
@@ -400,7 +407,7 @@ img.project-image {
     margin-bottom: var(--mar-b-space);
     margin-left: calc(50% - 45px);
     margin-right: calc(50% - 45px);
-    text-align: center;
+    /* text-align: center; */
   }
 }
 
@@ -509,21 +516,21 @@ img.project-image {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 1px;
   height: 0;
 }
 
 /* Track */
-/* ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: black;
-} */
+}
 
 /* Handle */
-/* ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: silver;
-} */
+}
 
 /* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background: #555;
-} */
+}

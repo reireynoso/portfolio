@@ -55,23 +55,26 @@ body {
   animation: slideInLeft var(--slide-speed) ease-in;
 }
 
-/* .home-icon{
-  position: absolute;
-  right: 1.2rem;
-  top: 1.2rem;
-} */
-
 .home-icon{
-  position: sticky;
-  /* right: calc((0.8 * 100%));
-  top: calc(8%); */
-  /* margin-top: 2%; */
-  /* margin-left: 68%; */
+  position: fixed;
+  background-color: var(--bg-secondary);
+  display: flex;
+  border: 2px var(--border-color) solid;
+  border-radius: 40px;
 }
 
 .home-icon > a{
   color: inherit;
+  display: block;
+  align-self: center;
+  /* margin-bottom: 15px; */
 }
+
+/* .home-icon > a:last-child{
+  margin-bottom: 0;
+}  */
+
+
 
 .lg-heading {
   font-size: 4rem;
@@ -169,7 +172,7 @@ body {
 /* About Component */
 
 .link-container {
-  /* position: relative; */
+  position: relative;
   background-color: var(--bg-secondary);
   max-width: 40rem;
   min-width: 10rem;
@@ -290,6 +293,26 @@ img.project-image {
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
+
+  /* .home-icon{
+    top: 1.25rem;
+    right: 1.2rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 10px;
+  }
+
+  .home-icon > a{
+    color: inherit;
+    display: block;
+    align-self: center;
+    margin-right: 15px;
+  }
+  
+  .home-icon > a:last-child{
+    margin-right: 0;
+  } */
+
   .page-links {
     display: flex;
     flex-direction: column;
@@ -302,6 +325,7 @@ img.project-image {
     text-decoration: none;
     padding: 10px;
     border-top: 1px solid var(--border-color);
+    text-align: center;
   }
 
   /* removes top border of first child */
@@ -335,7 +359,26 @@ img.project-image {
 }
 
 /* Large screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
+  
+  /* .home-icon{
+    top: 2rem;
+    right: 2rem;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .home-icon > a{
+    color: inherit;
+    display: block;
+    align-self: center;
+    margin-bottom: 15px;
+  }
+  
+  .home-icon > a:last-child{
+    margin-bottom: 0;
+  } */
+
   .page-links > a {
     color: inherit; 
     font-weight: bold;
@@ -363,6 +406,54 @@ img.project-image {
   .blog-content-title {
     border-bottom: 1px solid var(--border-color);
     margin: 0 calc(100% - 90px) 20px 0;
+  }
+}
+
+/* Accounted for HomeIcon component */
+
+@media only screen and (max-width: 830px) {
+  .home-icon{
+    top: 1.25rem;
+    right: 1.2rem;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 10px;
+  }
+
+  .home-icon > a{
+    color: inherit;
+    display: block;
+    align-self: center;
+    margin-right: 15px;
+  }
+  
+  .home-icon > a:last-child{
+    margin-right: 0;
+  }
+} 
+
+@media only screen and (min-width: 831px) {
+  .home-icon{
+    position: fixed;
+    background-color: var(--bg-secondary);
+    display: flex;
+    border: 2px var(--border-color) solid;
+    border-radius: 40px;
+    top: 2rem;
+    right: 2rem;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .home-icon > a{
+    color: inherit;
+    display: block;
+    align-self: center;
+    margin-bottom: 15px;
+  }
+
+  .home-icon > a:last-child{
+    margin-bottom: 0px;
   }
 }
 

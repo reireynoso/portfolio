@@ -5,13 +5,13 @@ import Home from './components/Home'
 import About from './components/About'
 import Project from './components/Project'
 import Blog from './components/Blog'
-import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 const App = () => {
   return (
     <div className="App">
         <Switch>
-          <Route path="/contact" component={Contact}/>
+          <Route path="/contact" component={Resume}/>
           <Route path="/blogs" component={Blog}/>
           <Route path="/projects" component={Project}/>
           <Route path="/about" component={About}/>

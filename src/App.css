@@ -464,6 +464,8 @@ img.project-image {
 
 /* Accounted for HomeIcon component */
 
+/* small screen */
+/* home icon will appear in middle */
 /* @media only screen and (max-width: 930px) {
   .home-icon{
     top: 1.25rem;
@@ -487,6 +489,8 @@ img.project-image {
   }
 }  */
 
+/* larger screen */
+/* Home icon will appear in right side */
 /* @media only screen and (min-width: 931px) {
   .home-icon{
     position: fixed;

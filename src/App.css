@@ -323,7 +323,13 @@ img.project-image {
   margin-bottom: var(--mar-b-space);
 }
 
+/* Resume Component */
 
+.resume-content-subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -411,12 +417,6 @@ img.project-image {
   }
 }
 
-/* Resume Component */
-
-.education-card {
-  
-}
-
 /* Large screens */
 @media only screen and (min-width: 601px) {
   
@@ -465,6 +465,11 @@ img.project-image {
   .blog-content-title {
     border-bottom: 1px solid var(--border-color);
     margin: 0 calc(100% - 90px) 20px 0;
+  }
+
+  .resume-content-title {
+    border-bottom: 1px solid var(--border-color);
+    margin: 0 calc(100% - 125px) 20px 0;
   }
 }
 

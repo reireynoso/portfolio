@@ -415,6 +415,13 @@ img.project-image {
     margin-right: calc(50% - 45px);
     /* text-align: center; */
   }
+
+  .resume-content-title {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: var(--mar-b-space);
+    margin-left: calc(50% - 60px);
+    margin-right: calc(50% - 60px);
+  }
 }
 
 /* Large screens */

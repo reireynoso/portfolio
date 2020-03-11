@@ -9,7 +9,7 @@ const Resume = () => {
             <div className="education-container">
                 <h2 className="resume-content-subtitle">Education</h2>
                 <div className="education-card">
-                    <h2>Rutgers - Newark</h2>
+                    <h3>Rutgers - Newark</h3>
                     <i>Newark, NJ - 2013</i>
                     <p>B.A in Mathematics / Minor in Computer Science</p>
                 </div>
@@ -18,7 +18,7 @@ const Resume = () => {
             <div className="work-container">
                 <h2 className="resume-content-subtitle">Employment History</h2>
                 <div className="work-card">
-                    <h2>Software Engineering Coach</h2>
+                    <h3>Software Engineering Coach</h3>
                     <p>WeWork x Flatiron School | Aug 2019 - Current</p>
                     <ul>
                         <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

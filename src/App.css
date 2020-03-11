@@ -118,6 +118,13 @@ body {
   display: block;
   align-self: center;
   margin-right: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* scale size of home-icons */
+
+.home-icon > a:hover{
+  transform: scale(1.3)
 }
 
 .home-icon > a:last-child{

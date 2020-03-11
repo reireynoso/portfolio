@@ -61,9 +61,8 @@ body {
 }
 
 .icons > a:hover{
-  background-color: var(--text-primary);
-  color: var(--bg-primary); 
   transition: var(--transition-speed) ease; 
+  transform: scale(1.2)
 }
 
 .landing-page {
@@ -124,7 +123,7 @@ body {
 /* scale size of home-icons */
 
 .home-icon > a:hover{
-  transform: scale(1.3)
+  transform: scale(1.2)
 }
 
 .home-icon > a:last-child{
@@ -340,6 +339,14 @@ img.project-image {
 
 .education-container {
   margin-bottom: 20px;
+}
+
+.work-card p {
+  margin-bottom: 10px;
+}
+
+.education-card h2 , .work-card h2 {
+  text-transform: uppercase;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -9,8 +9,8 @@ const Resume = () => {
             <div className="education-container">
                 <h2 className="resume-content-subtitle">Education</h2>
                 <div className="education-card">
-                    <h2>RUTGERS - NEWARK</h2>
-                    <p>Newark, NJ - 2013</p>
+                    <h2>Rutgers - Newark</h2>
+                    <i>Newark, NJ - 2013</i>
                     <p>B.A in Mathematics / Minor in Computer Science</p>
                 </div>
             </div>

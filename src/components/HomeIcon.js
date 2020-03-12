@@ -7,11 +7,11 @@ const HomeIcon = () => {
             <Link to="/">
                 <i className="fas fa-home fa-2x"></i>
             </Link>
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/in/reinald-reynoso622/" target="_blank">
                 <i className="fab fa-linkedin fa-2x"></i>
             </a>
-            <a href="" target="_blank">
-                <i class="fab fa-github fa-2x"></i>
+            <a href="https://github.com/reireynoso" target="_blank">
+                <i className="fab fa-github fa-2x"></i>
             </a>
         </div>
     )

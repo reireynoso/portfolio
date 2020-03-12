@@ -13,9 +13,9 @@ const Home = () => {
             </div>
             <Header/>
             <div className="icons">
-                <a href="" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                <a href="" target="_blank"> <i class="fab fa-medium fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/reinald-reynoso622/" target="_blank"><i className="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/reireynoso" target="_blank"><i className="fab fa-github fa-2x"></i></a>
+                <a href="https://medium.com/@reireynoso" target="_blank"> <i className="fab fa-medium fa-2x"></i></a>
             </div>
         </div>
     )

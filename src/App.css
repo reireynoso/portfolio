@@ -350,6 +350,11 @@ img.project-image {
 .education-card h2 , .work-card h2 {
   text-transform: uppercase;
 }
+
+.education-card, .work-card {
+  margin-bottom: 15px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

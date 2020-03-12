@@ -1,5 +1,8 @@
 import React from 'react'
 import HomeIcon from './HomeIcon'
+import information from '../information'
+import EducationCard from './EducationCard'
+import WorkCard from './WorkCard'
 
 const Resume = () => {
     return (
@@ -8,27 +11,17 @@ const Resume = () => {
             <h1 className="resume-content-title">Resume</h1>
             <div className="education-container">
                 <h2 className="resume-content-subtitle">Education</h2>
-                <div className="education-card">
-                    <h3>Rutgers - Newark</h3>
-                    <i>Newark, NJ - 2013</i>
-                    <p>B.A in Mathematics / Minor in Computer Science</p>
-                </div>
+                {
+                information.education.map(edu => <EducationCard key={edu.school} edu ={edu}/>)
+                }
             </div>
+            
 
             <div className="work-container">
                 <h2 className="resume-content-subtitle">Employment History</h2>
-                <div className="work-card">
-                    <h3>Software Engineering Coach</h3>
-                    <p>WeWork x Flatiron School | Aug 2019 - Current</p>
-                    <ul>
-                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</li>
-                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</li>
-                    </ul>
-                </div>
+                {
+                    information.work.map(wk => <WorkCard key={wk.title} work={wk}/>)
+                }
             </div>
         </div>
     )

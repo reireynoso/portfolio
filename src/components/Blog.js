@@ -11,7 +11,7 @@ const Blog = () => {
                 <div className="blog-handle">
                     <div><FaMedium/>Medium</div>
                     <span>
-                        <a id="medium-link" target="_blank" href="">@reireynoso</a>
+                        <a id="medium-link" target="_blank" href="https://medium.com/@reireynoso">@reireynoso</a>
                     </span>
                 </div>
                 <img className="blog-image" src="https://miro.medium.com/fit/c/2100/630/0*1JeHUV1wSFYeWTcU" alt=""/>

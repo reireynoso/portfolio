@@ -14,7 +14,7 @@ const BlogCard = (props) => {
             <img className="blog-image" src={image} alt={title}/>
             <h2 className="blog-title">{title}</h2>
             <p className="blog-description">{description}</p>
-            <a id="medium-article-link" target="_blank" href={link}>Read the article on medium.com</a>
+            <a rel="noopener noreferrer" id="medium-article-link" target="_blank" href={link}>Read the article on medium.com</a>
         </div>
     )
 }

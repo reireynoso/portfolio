@@ -12,7 +12,7 @@ const Project = () => {
             
             <div className="project-container">
                 {
-                    information.projects.map(project => <ProjectCard project ={project}/>)
+                    information.projects.map(project => <ProjectCard key={project.title} project ={project}/>)
                 }
             </div>
         </div>

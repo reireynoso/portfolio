@@ -301,6 +301,7 @@ img.project-image {
 
 .project-container, .blog-container {
   border-bottom: 1px solid var(--border-color);
+  margin-bottom: 20px;
 }
 
 /* Blog Component */

@@ -1,7 +1,7 @@
 const projects = [
     {
         title: "Learning Management System",
-        projectImage: "https://i.ytimg.com/vi/WxmL6egpkKs/hqdefault.jpg",
+        projectImage: "https://media.giphy.com/media/UTGw6xYVj2A61O7Mc5/giphy.gif",
         description: "Learning Management System is a learning platform for teachers and students. Server-server is built with Ruby on Rails. Client-side is built with React.",
         demoLink: "https://www.youtube.com/watch?v=WxmL6egpkKs&feature=youtu.be",
         repoLink: "https://github.com/reireynoso/learning-management-system-project",
@@ -9,7 +9,7 @@ const projects = [
     },
     {
         title: "Welp (Restaurant App)",
-        projectImage: "https://media-exp1.licdn.com/dms/image/sync/C4D27AQG2Thwhlt9M4w/articleshare-shrink_800/0?e=1584122400&v=beta&t=QvCiwEgRfCnO3qd1-GCuWjoD2WGuETANKkR_rcKBtlI",
+        projectImage: "https://media.giphy.com/media/McbJseTMZrl8VHcCVX/giphy.gif",
         description: "A Restaurant application (Yelp clone). Client-side built with React, React Hooks, and Redux. Server-side built with Ruby on Rails",
         demoLink: "https://www.youtube.com/watch?v=1cgreYWLC1E",
         repoLink: "https://github.com/reireynoso/restaurant_app_react",
@@ -17,7 +17,7 @@ const projects = [
     },
     {
         title: "Photo Uploader App",
-        projectImage: "https://media-exp1.licdn.com/dms/image/sync/C4E27AQH502EnYxWjBQ/articleshare-shrink_800/0?e=1584122400&v=beta&t=pAEOm-cv0zF4vgQwueYIEtnoqcZxRlJkj2PvfyiqXIY",
+        projectImage: "https://media.giphy.com/media/Js2rdwtGAgZr30yBDY/giphy.gif",
         description: "A Photo Uploading application. Client-side built with React. Server-side built with Ruby on Rails",
         demoLink: "https://www.youtube.com/watch?v=QMpfjpzMgsc",
         repoLink: "https://github.com/reireynoso/photo-mern-react",
@@ -25,7 +25,7 @@ const projects = [
     },
     {
         title: "Task Academy",
-        projectImage: "https://i.ytimg.com/vi/iCGvpS9cbNw/hqdefault.jpg",
+        projectImage: "https://media.giphy.com/media/h1tzfFfUn6nv4UcCKl/giphy.gif",
         description: "Learning platform with drag and drop task management functionality.",
         demoLink: "https://youtu.be/iCGvpS9cbNw",
         repoLink: "https://github.com/reireynoso/Taskcademy-client",

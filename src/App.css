@@ -406,40 +406,49 @@ img.project-image {
     border-top: 0;
   }
 
-  .content-title {
+  /* .content-title {
+    width: fit-content;
+    margin: auto;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 20px;
     margin-left: calc(50% - 80px);
     margin-right: calc(50% - 80px);
-    /* text-align: center; */
-  }
+    text-align: center;
+  } */
 
-  .project-content-title {
+  /* .project-content-title {
     border-bottom: 1px solid var(--border-color);
     margin-bottom: var(--mar-b-space);
     margin-left: calc(50% - 65px);
     margin-right: calc(50% - 65px);
-    /* text-align: center; */
+    text-align: center;
+  } */
+
+  .content-title, .project-content-title, .blog-content-title, .resume-content-title {
+    width: fit-content;
+    margin: auto;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 20px;
   }
 
   .project-title, .project-description, .blog-content-title, .content-title, .project-content-title {
     text-align: center
   }
 
-  .blog-content-title {
+  /* .blog-content-title {
     border-bottom: 1px solid var(--border-color);
     margin-bottom: var(--mar-b-space);
     margin-left: calc(50% - 45px);
     margin-right: calc(50% - 45px);
-    /* text-align: center; */
-  }
+    text-align: center;
+  } */
 
-  .resume-content-title {
+  /* .resume-content-title {
     border-bottom: 1px solid var(--border-color);
     margin-bottom: var(--mar-b-space);
     margin-left: calc(50% - 60px);
     margin-right: calc(50% - 60px);
-  }
+  } */
 }
 
 /* Large screens */
@@ -477,25 +486,35 @@ img.project-image {
     border-left: 0;
   }
 
-  .content-title {
+  .content-title, .project-content-title, .blog-content-title, .resume-content-title {
+    display: inline-block;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 20px;
+  }
+
+  /* .content-title {
+    display: inline-block;
     border-bottom: 1px solid var(--border-color);
     margin: 0 calc(100% - 150px) 20px 0;
   }
 
   .project-content-title {
+    display: inline-block;
     border-bottom: 1px solid var(--border-color);
     margin: 0 calc(100% - 130px) 20px 0;
   }
 
   .blog-content-title {
+    display: inline-block;
     border-bottom: 1px solid var(--border-color);
     margin: 0 calc(100% - 90px) 20px 0;
   }
 
   .resume-content-title {
+    display: inline-block;
     border-bottom: 1px solid var(--border-color);
     margin: 0 calc(100% - 125px) 20px 0;
-  }
+  } */
 }
 
 /* Accounted for HomeIcon component */

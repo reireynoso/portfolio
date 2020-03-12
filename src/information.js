@@ -134,13 +134,58 @@ const blogs = [
 
 const education = [
     {
-
+        school: "Flatiron School",
+        location_year: "Brooklyn, NY - 2019",
+        program: "Software Engineering Immersive"
+    },
+    {
+        school: "New Jersey City University",
+        location_year: "Jersey City, NJ - 2019",
+        program: "M.A in Educational Technology"
+    },
+    {
+        school: "Rutgers - Newark",
+        location_year: "Newark, NJ - 2013",
+        program: "B.A in Mathematics / Minor in Computer Science"
     }
 ]
 
 const work = [
     {
-
+        title: "Software Engineering Coach",
+        company_year: "WeWork X Flatiron School | Aug 2019 - Current",
+        duties: [
+            "Assisting students and staff with real time efforts, such as debugging a student’s project or assignment and providing guidance to coding approach.",
+            "Identify and deploy content for the coming week to meet the predefined learning objectives.",
+            "Create/iterate/review assessments to diagnose student strengths and weaknesses."
+        ]
+    },
+    {
+        title: "Math Intervention Teacher",
+        company_year: "Perth Amboy School District | Feb 2018 - Mar 2019",
+        duties: [
+            "Implemented a three-tiered center model with different activities reinforcing students’ comprehension of mathematical concepts in a small group setting",
+            "Utilized various sources of data to employ data-driven instruction and improve the comprehension of students struggling in certain math concepts.",
+            "Collaborated with math classroom teachers to determine the assistance their students’ require and provide in-class support"
+        ]
+    },
+    {
+        title: "Mathematics Teacher",
+        company_year: "Jersey City Board of Education | Oct 2013 - Jan 2018",
+        duties: [
+            "Develop intriguing lessons that actively engaged learners, reinforced problem-solving and critical thinking skills, and prepared students for state exams",
+            "Administered formal and informal assessments on a consistent basis to track student progress while at the same time utilizing results to enhance students’ performance",
+            "Worked with students to develop and maintain classroom rules/procedures to maintain a positive learning environment"
+        ]
+    },
+    {
+        title: "I.T Volunteer",
+        company_year: "St. Michael's Hospital | Nov 2011 - Apr 2012",
+        duties: [
+            "Walked floor to floor troubleshooting and repairing different hardware issues of PCs in the hospital under the guidance of an IT supervisor",
+            "Participated in ghosting/duplicating of computer hard drives onto other computer hard drives",
+            "Upgraded computer components such as RAM and hard drives under the guidance of an IT supervisor"
+        ]
     }
 ]
 

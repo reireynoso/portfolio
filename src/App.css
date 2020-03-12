@@ -37,6 +37,11 @@ body {
   text-decoration: none;
 }
 
+#medium-link:hover, #medium-article-link:hover {
+  color: var(--text-primary);
+  transition: 1s ease;
+}
+
 #medium-link {
   margin: 0;
 }

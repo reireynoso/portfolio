@@ -9,13 +9,13 @@ const ProjectCard = (props) => {
             <p className="project-description">{description}</p>
 
             <div className="project-buttons">
-                <a target="_blank" href={demoLink}>
+                <a rel="noopener noreferrer" target="_blank" href={demoLink}>
                     <button>Demo</button>
                 </a>
-                <a target="_blank" href={repoLink}>
+                <a rel="noopener noreferrer" target="_blank" href={repoLink}>
                     <button>Repo</button>
                 </a>
-                <a target="_blank" href={siteLink}>
+                <a rel="noopener noreferrer" target="_blank" href={siteLink}>
                     <button>Site</button>
                 </a>
             </div>

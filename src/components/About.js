@@ -37,7 +37,7 @@ const About = () => {
                         <br/>
                         <br/>
 
-                        If you think I would be a good fit for your company, please do not hesitate to reach out on my <a id="linked-in" target="_blank" href="https://www.linkedin.com/in/reinald-reynoso622/">LinkedIn</a>
+                        If you think I would be a good fit for your company, please do not hesitate to reach out on my <a id="linked-in" target="_blank" href="https://www.linkedin.com/in/reinald-reynoso622/" rel="noopener noreferrer>LinkedIn</a>
                        
                         </p>
                     </div>

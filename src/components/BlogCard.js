@@ -8,7 +8,7 @@ const BlogCard = (props) => {
             <div className="blog-handle">
                 <div><FaMedium/>Medium</div>
                 <span>
-                    <a id="medium-link" target="_blank" href="https://medium.com/@reireynoso">@reireynoso</a>
+                    <a id="medium-link" rel="noopener noreferrer" target="_blank" href="https://medium.com/@reireynoso">@reireynoso</a>
                 </span>
             </div>
             <img className="blog-image" src={image} alt={title}/>

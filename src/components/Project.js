@@ -1,8 +1,9 @@
 import React from 'react'
 import HomeIcon from './HomeIcon'
+import information from '../information'
 
 const Project = () => {
-
+    console.log(information)
     return (
         <div className="link-container">
             <HomeIcon/>

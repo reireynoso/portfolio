@@ -218,7 +218,7 @@ body {
   border-radius: 5px;
 }
 
-.page-links > a:hover, .project-buttons > a > button:hover {
+.page-links > a:hover, .project-buttons > a > button:hover, .project-view-button:hover {
   background-color: var(--text-primary);
   color: var(--bg-primary);
   transition: var(--transition-speed) ease-in;
@@ -265,9 +265,28 @@ img.profile {
 
 .dev-icons {
   text-align: center;
-  margin-bottom: var(--mar-b-space);
+  margin-bottom: 10px;
   animation: slideInRight var(--slide-speed) ease-in;
 }
+
+.project-view-button {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border: 1px solid var(--text-primary);
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: var(--mar-b-space);
+  animation: slideInRight var(--slide-speed) ease-in
+}
+
+/* .project-view-button:hover {
+  color: var(--bg-primary);
+  background-color: var(--text-primary);
+  transition: 0.4s ease-in;
+} */
 
 /* Project Component */
 

@@ -1,5 +1,5 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import HomeIcon from './HomeIcon'
 import {DiRor, DiRuby, DiJavascript1, DiCss3, DiHtml5, DiGithubBadge, DiReact, DiNodejs} from 'react-icons/di'
 
@@ -21,6 +21,9 @@ const About = () => {
                             <DiHtml5 size={32}/>
                             <DiGithubBadge size={32}/>
                         </div>
+
+                        <Link className="project-view-button" to="/projects">View Projects</Link>
+
                         <p className="content-intro">
                         Full stack web developer with four years of experience teaching middle school math, Bachelor’s Degree in Mathematics, and a Master’s Degree in Educational Technology. 
                         

@@ -26,7 +26,7 @@ const projects = [
     {
         title: "Task Academy",
         projectImage: "https://media.giphy.com/media/h1tzfFfUn6nv4UcCKl/giphy.gif",
-        description: "Learning platform with drag and drop task management functionality.",
+        description: "Learning platform with drag and drop task management functionality. Client-side built with React. Server-side built with Ruby on Rails",
         demoLink: "https://youtu.be/iCGvpS9cbNw",
         repoLink: "https://github.com/reireynoso/Taskcademy-client",
         siteLink: "https://task-academy-react.herokuapp.com/"
@@ -179,7 +179,7 @@ const work = [
         ]
     },
     {
-        title: "I.T Volunteer",
+        title: "I.T. Volunteer",
         company_year: "St. Michael's Hospital | Nov 2011 - Apr 2012",
         duties: [
             "Walked floor to floor troubleshooting and repairing different hardware issues of PCs in the hospital under the guidance of an IT supervisor",

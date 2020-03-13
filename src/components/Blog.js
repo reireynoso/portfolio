@@ -5,13 +5,15 @@ import information from '../information'
 
 const Blog = () => {
     return(
+        <>
+        <HomeIcon/>
         <div className="link-container">
-            <HomeIcon/>
             <h1 className="blog-content-title">Blogs</h1>
             {
                 information.blogs.map(blog => <BlogCard key={blog.title} blog={blog}/>)
             }
         </div>
+        </>
     )
 }
 

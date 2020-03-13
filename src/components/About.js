@@ -5,9 +5,9 @@ import {DiRor, DiRuby, DiJavascript1, DiCss3, DiHtml5, DiGithubBadge, DiReact, D
 
 const About = () => {
     return (
-        
+            <>
+            <HomeIcon/>
             <div className="link-container">
-                <HomeIcon/>
                     <h1 className="content-title">About Me</h1>
                     <div className="content-info">
                         <img className="profile" alt="rei-linkedin" src="https://raw.githubusercontent.com/reireynoso/modern_portfolio/master/dist/img/personal.JPG"/>
@@ -42,6 +42,7 @@ const About = () => {
                         </p>
                     </div>
             </div>
+            </>
     )
 }
 

@@ -6,8 +6,9 @@ import WorkCard from './WorkCard'
 
 const Resume = () => {
     return (
+        <>
+        <HomeIcon/>
         <div className="link-container">
-            <HomeIcon/>
             <h1 className="resume-content-title">Resume</h1>
             <div className="education-container">
                 <h2 className="resume-content-subtitle">Education</h2>
@@ -24,6 +25,7 @@ const Resume = () => {
                 }
             </div>
         </div>
+        </>
     )
 }
 

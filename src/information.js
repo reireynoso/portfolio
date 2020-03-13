@@ -10,7 +10,7 @@ const projects = [
     {
         title: "Welp (Restaurant App)",
         projectImage: "https://media.giphy.com/media/McbJseTMZrl8VHcCVX/giphy.gif",
-        description: "A Restaurant application (Yelp clone). Users can view restaurants within a specific area. They can rate dishes of a specific restaurant and also leave a review for the restaurant. The google map react library is implemented to map out locations of restaurarants. Client-side built with React, React Hooks, and Redux. Server-side built with Ruby on Rails.",
+        description: "A Restaurant application (Yelp clone). Users can view restaurants within a specific area. They can rate dishes and leave a review for a specific restaurant. The google map react library is implemented to map out locations of restaurarants. Client-side built with React, React Hooks, and Redux. Server-side built with Ruby on Rails.",
         demoLink: "https://www.youtube.com/watch?v=1cgreYWLC1E",
         repoLink: "https://github.com/reireynoso/restaurant_app_react",
         siteLink: "https://restaurant-client-react.herokuapp.com/"
@@ -18,7 +18,7 @@ const projects = [
     {
         title: "Photo Uploader App",
         projectImage: "https://media.giphy.com/media/Js2rdwtGAgZr30yBDY/giphy.gif",
-        description: "A Photo Uploading application. A user can upload a photo and delete a photo while being able to like, and comment on a specific photo. Cloudinary is incorporated to handle cloud photo storage. Client-side built with React. Server-side built with Ruby on Rails",
+        description: "A Photo Uploading application. A user can upload a photo and delete a photo while being able to like, and comment on a specific photo. Cloudinary is incorporated to handle cloud photo storage. Client-side built with React. Server-side built with NodeJS, and Express.",
         demoLink: "https://www.youtube.com/watch?v=QMpfjpzMgsc",
         repoLink: "https://github.com/reireynoso/photo-mern-react",
         siteLink: "https://photo-uploader-react.herokuapp.com/"

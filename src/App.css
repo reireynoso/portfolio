@@ -116,6 +116,9 @@ body {
   width: 8rem;
   margin: auto;
   margin-bottom: 10px;
+  opacity: 0.90;
+  animation: load 1s ease-in
+
 }
 
 .home-icon > a{
@@ -244,6 +247,7 @@ body {
   overflow-y: scroll;
   animation: load 1s ease-in
 }
+
 
 img.profile {
   display: block;

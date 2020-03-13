@@ -2,7 +2,7 @@ const projects = [
     {
         title: "Learning Management System",
         projectImage: "https://media.giphy.com/media/UTGw6xYVj2A61O7Mc5/giphy.gif",
-        description: "Learning Management System is a learning platform for teachers and students. Server-server is built with Ruby on Rails. Client-side is built with React.",
+        description: "Learning Management System is a learning platform designed for teachers and students. Users can register as teachers, students or both. A teacher can create (and delete) new courses, announcements, assignments, and share tutorial videos. Students can register for courses, comment on announcements, and submit assignments. The app is designed to foster collaboration and learning. The ChartJS library is implemented to organize the grades of students. Server-server is built with Ruby on Rails. Client-side is built with React.",
         demoLink: "https://www.youtube.com/watch?v=WxmL6egpkKs&feature=youtu.be",
         repoLink: "https://github.com/reireynoso/learning-management-system-project",
         siteLink: "https://lms-react.herokuapp.com/"
@@ -10,7 +10,7 @@ const projects = [
     {
         title: "Welp (Restaurant App)",
         projectImage: "https://media.giphy.com/media/McbJseTMZrl8VHcCVX/giphy.gif",
-        description: "A Restaurant application (Yelp clone). Client-side built with React, React Hooks, and Redux. Server-side built with Ruby on Rails",
+        description: "A Restaurant application (Yelp clone). Users can view restaurants within a specific area. They can rate dishes of a specific restaurant and also leave a review for the restaurant. The google map react library is implemented to map out locations of restaurarants. Client-side built with React, React Hooks, and Redux. Server-side built with Ruby on Rails.",
         demoLink: "https://www.youtube.com/watch?v=1cgreYWLC1E",
         repoLink: "https://github.com/reireynoso/restaurant_app_react",
         siteLink: "https://restaurant-client-react.herokuapp.com/"
@@ -18,7 +18,7 @@ const projects = [
     {
         title: "Photo Uploader App",
         projectImage: "https://media.giphy.com/media/Js2rdwtGAgZr30yBDY/giphy.gif",
-        description: "A Photo Uploading application. Client-side built with React. Server-side built with Ruby on Rails",
+        description: "A Photo Uploading application. A user can upload a photo and delete a photo while being able to like, and comment on a specific photo. Cloudinary is incorporated to handle cloud photo storage. Client-side built with React. Server-side built with Ruby on Rails",
         demoLink: "https://www.youtube.com/watch?v=QMpfjpzMgsc",
         repoLink: "https://github.com/reireynoso/photo-mern-react",
         siteLink: "https://photo-uploader-react.herokuapp.com/"
@@ -26,7 +26,7 @@ const projects = [
     {
         title: "Task Academy",
         projectImage: "https://media.giphy.com/media/h1tzfFfUn6nv4UcCKl/giphy.gif",
-        description: "Learning platform with drag and drop task management functionality. Client-side built with React. Server-side built with Ruby on Rails",
+        description: "Learning platform with drag and drop task management functionality to emulate Trello's task organization. A user can enroll for a new course and manage the completed tasks of each course through drag and drop. The react beautiful drag and drop library is implemented to handle the feature. Client-side built with React. Server-side built with Ruby on Rails",
         demoLink: "https://youtu.be/iCGvpS9cbNw",
         repoLink: "https://github.com/reireynoso/Taskcademy-client",
         siteLink: "https://task-academy-react.herokuapp.com/"
@@ -155,9 +155,9 @@ const work = [
         title: "Software Engineering Coach",
         company_year: "WeWork X Flatiron School | Aug 2019 - Current",
         duties: [
-            "Assisting students and staff with real time efforts, such as debugging a student’s project or assignment and providing guidance to coding approach.",
+            "Primarily worked with Javascipt and Ruby programming languages and Ruby on Rails and React framework/library.",
+            "Assisting students and staff with real time efforts, such as debugging a student’s project or assignment and providing guidance to coding approach as well as create/iterate/review assessments to diagnose student strengths and weaknesses.",
             "Identify and deploy content for the coming week to meet the predefined learning objectives.",
-            "Create/iterate/review assessments to diagnose student strengths and weaknesses."
         ]
     },
     {

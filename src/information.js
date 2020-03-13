@@ -26,7 +26,7 @@ const projects = [
     {
         title: "Task Academy",
         projectImage: "https://media.giphy.com/media/h1tzfFfUn6nv4UcCKl/giphy.gif",
-        description: "Learning platform with drag and drop task management functionality to emulate Trello's task organization. A user can enroll for a new course and manage the completed tasks of each course through drag and drop. The react beautiful drag and drop library is implemented to handle the feature. Client-side built with React. Server-side built with Ruby on Rails",
+        description: "Learning platform with drag and drop functionality to emulate Trello's task organization. A user can enroll for a new course and manage the completed tasks of each course through drag and drop. The react beautiful drag and drop library is implemented to handle the feature. Client-side built with React. Server-side built with Ruby on Rails",
         demoLink: "https://youtu.be/iCGvpS9cbNw",
         repoLink: "https://github.com/reireynoso/Taskcademy-client",
         siteLink: "https://task-academy-react.herokuapp.com/"

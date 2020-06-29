@@ -1,5 +1,13 @@
 const projects = [
     {
+        title: "uMessenger (in progress)",
+        projectImage: "https://media.giphy.com/media/kgUwn2MdM5krxFmYtW/giphy.gif",
+        description: "uMessage is a full-stack chat application that allows you to send messages to other users by email address. Previous conversations that be filtered out by name. The design of the application is inspired by iMessage and Slack.",
+        demoLink: "",
+        repoLink: "https://github.com/reireynoso/umessenger-app",
+        siteLink: "https://umessenger-frontend.herokuapp.com/"
+    },
+    {
         title: "Learning Management System",
         projectImage: "https://media.giphy.com/media/UTGw6xYVj2A61O7Mc5/giphy.gif",
         description: "Learning Management System is a learning platform designed for teachers and students. Users can register as teachers, students or both. A teacher can create (and delete) new courses, announcements, assignments, and share tutorial videos. Students can register for courses, comment on announcements, and submit assignments. The app is designed to foster collaboration and learning. The ChartJS library is implemented to organize the grades of students. Server-server is built with Ruby on Rails. Client-side is built with React.",
@@ -34,6 +42,30 @@ const projects = [
 ]
 
 const blogs = [
+    {
+        image: "https://miro.medium.com/fit/c/1400/420/0*5dfbbmhUm_VTaowe",
+        title: "How to Upload Files in a React and Rails App",
+        description: "In this guide, we will cover how to upload images/videos in a React application.",
+        link: "https://medium.com/better-programming/how-to-upload-files-in-a-react-and-rails-app-69c31a9cf9b7"
+    },
+    {
+        image: "https://miro.medium.com/fit/c/1400/420/1*q4DH34WPy9SZ4LnRAYtPcw.png",
+        title: "Build a React Redux App With JavaScript Web Tokens",
+        description: "This is a guide on creating a React Redux application from scratch. The focus is on handling a user signing up and logging in — and then authenticating and authorizing them with JSON Web Tokens(JWT).",
+        link: "https://medium.com/better-programming/build-a-react-redux-app-with-javascript-web-tokens-9f2b73768e18"
+    },
+    {
+        image: "https://miro.medium.com/fit/c/1400/420/0*VKPoLz0BokYh0Wuj",
+        title: "Build a Rails API With JWT",
+        description: "This is a guide on creating and setting up a Rails API application from scratch. The focus will be on user login and sign up and authorizing/authenticating them with JWT (JSON Web Tokens).",
+        link: "https://medium.com/better-programming/build-a-rails-api-with-jwt-61fb8a52d833"
+    },
+    {
+        image: "https://miro.medium.com/fit/c/1400/420/0*POj0vsz3b2UhWb2S.jpg",
+        title: "A Simple Introduction to Redux",
+        description: "Redux is a JavaScript library for managing and maintaining application state that is used alongside other frameworks, such as React. Understanding how Redux works can be tricky. The purpose of this guide is to break down some resources we get from Redux as well as to explain terminologies associated with it.",
+        link: "https://medium.com/better-programming/a-simple-introduction-to-redux-387e6b232760"
+    },
     {
         image: "https://miro.medium.com/fit/c/1400/420/0*1JeHUV1wSFYeWTcU",
         title: "Polymorphic Associations in Rails",

@@ -187,9 +187,11 @@ const work = [
         title: "Software Engineering Coach",
         company_year: "WeWork X Flatiron School | Aug 2019 - Current",
         duties: [
-            "Primarily worked with Javascipt and Ruby programming languages and Ruby on Rails and React framework/library.",
-            "Assisting students and staff with real time efforts, such as debugging a student’s project or assignment and providing guidance to coding approach as well as create/iterate/review assessments to diagnose student strengths and weaknesses.",
-            "Identify and deploy content for the coming week to meet the predefined learning objectives.",
+            "Delivered lectures and workshops with Javascript, Ruby, React, Ruby on Rails, and HTML/CSS",
+            "Identify, deploy, and create content for the coming week to meet the predefined learning objectives, create/iterate/review assessments to diagnose student strengths and weaknesses",
+            "Assist students and staff with real time efforts, through different means such as debugging, and pair programming to solve a coding challenge  and providing guidance, advice, and resources",
+            "Build new units such labs, assessments, blogs, and readme's to contribute to the curriculum",
+            "Ran workshops introducing beginner coders to front-end web development with Javascript, HTML and CSS"
         ]
     },
     {

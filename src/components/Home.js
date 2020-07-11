@@ -8,7 +8,7 @@ const Home = () => {
                 <i className="fas fa-laptop-code fa-3x"></i>
             </div>
             <div className="landing-page">
-                <h1 className="lg-heading">Reinald <span className="last-name">Reynoso</span></h1>
+                <h1 className="lg-heading">Reinald Reynoso</h1>
                 <h2 className="sm-heading">Full Stack Web Developer and Educator</h2>
             </div>
             <Header/>

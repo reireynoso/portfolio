@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Header from './Header'
 import HomeIcon from './HomeIcon'
 import {DiRor, DiRuby, DiJavascript1, DiCss3, DiHtml5, DiGithubBadge, DiReact, DiNodejs} from 'react-icons/di'
 
@@ -7,6 +8,7 @@ const About = () => {
     return (
             <>
             <HomeIcon/>
+            <Header/>
             <div className="link-container">
                     <h1 className="content-title">About Me</h1>
                     <div className="content-info">
@@ -25,7 +27,7 @@ const About = () => {
                         <Link className="project-view-button" to="/projects">View Projects</Link>
 
                         <p className="content-intro">
-                        Full stack web developer with four years of experience teaching middle school math, Bachelor’s Degree in Mathematics, and a Master’s Degree in Educational Technology. 
+                        Full Stack Web Developer with a proficiency in the following: Javascript, Ruby, React, Ruby on Rails, HTML/CSS as the Software Engineering Coach for Flatiron School. I have experience with web applications, pair programming and team collaboration. 
                         
                         <br/>
                         <br/>
@@ -35,7 +37,7 @@ const About = () => {
                         <br/>
                         <br/>
 
-                        I bring strong skills in management, instruction and communication as well as an exceptional background with complex problem solving and educational technology implementation. I have experience with React, Redux, Javascript, Ruby, Ruby on Rails, HTML/CSS and Restful API.
+                        I bring strong skills in management, instruction and communication as well as an exceptional background with complex problem solving and educational technology implementation. I also have four years experience teaching middle school math, and have earned a Bachelor’s Degree in Mathematics, and a Master’s Degree in Educational Technology. 
 
                         <br/>
                         <br/>

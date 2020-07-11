@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeIcon from './HomeIcon'
 import ProjectCard from './ProjectCard'
+import Header from './Header'
 import information from '../information'
 
 const Project = () => {
@@ -8,6 +9,7 @@ const Project = () => {
     return (
         <>
         <HomeIcon/>
+        <Header/>
         <div className="link-container">
             <h1 className="project-content-title">Projects</h1>
             

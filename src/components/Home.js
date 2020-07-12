@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 
-const Home = () => {
+const Home = ({location: {pathname}}) => {
     return (
         <div>
             <div className="logo">
@@ -11,7 +11,7 @@ const Home = () => {
                 <h1 className="lg-heading">Reinald Reynoso</h1>
                 <h2 className="sm-heading">Full Stack Web Developer and Educator</h2>
             </div>
-            <Header/>
+            <Header pathname={pathname}/>
             <div className="icons">
                 <a rel="noopener noreferrer" href="https://www.linkedin.com/in/reinald-reynoso622/" target="_blank"><i className="fab fa-linkedin fa-2x"></i></a>
                 <a rel="noopener noreferrer" href="https://github.com/reireynoso" target="_blank"><i className="fab fa-github fa-2x"></i></a>

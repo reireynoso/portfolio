@@ -4,11 +4,11 @@ import Header from './Header'
 import BlogCard from './BlogCard'
 import information from '../information'
 
-const Blog = () => {
+const Blog = ({location: {pathname}}) => {
     return(
         <>
         <HomeIcon/>
-        <Header/>
+        <Header pathname={pathname}/>
         <div className="link-container">
             <h1 className="blog-content-title">Blogs</h1>
             {

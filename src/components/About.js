@@ -4,11 +4,11 @@ import Header from './Header'
 import HomeIcon from './HomeIcon'
 import {DiRor, DiRuby, DiJavascript1, DiCss3, DiHtml5, DiGithubBadge, DiReact, DiNodejs} from 'react-icons/di'
 
-const About = () => {
+const About = ({location: {pathname}}) => {
     return (
             <>
             <HomeIcon/>
-            <Header/>
+            <Header pathname={pathname}/>
             <div className="link-container">
                     <h1 className="content-title">About Me</h1>
                     <div className="content-info">

@@ -5,11 +5,11 @@ import EducationCard from './EducationCard'
 import Header from './Header'
 import WorkCard from './WorkCard'
 
-const Resume = () => {
+const Resume = ({location: {pathname}}) => {
     return (
         <>
-        <HomeIcon/>
-        <Header/>
+        <HomeIcon />
+        <Header pathname={pathname}/>
         <div className="link-container">
             <h1 className="resume-content-title">Resume</h1>
             <div className="education-container">

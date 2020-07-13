@@ -18,7 +18,8 @@
 
 body {
   color: var(--text-primary);
-  background-color: var(--bg-primary)
+  /* background-color: var(--bg-primary) */
+  background: linear-gradient(to bottom, #bdc3c7 , #4c657e)
 }
 
 .App {
@@ -164,7 +165,7 @@ body {
     color: var(--text-secondary);
   }
   50% {
-    color: orange;
+    color: rgb(253, 165, 0);
   }
 }
 
@@ -177,7 +178,6 @@ body {
 }
 
 /* Header Component */
-
 .nav, .logo, .page-links {
   display: flex;
   justify-content: center;
@@ -188,7 +188,6 @@ body {
 }
 
 .page-links {
-  /* margin-top: 3%; */
   border: 1px solid var(--border-color);
   border-radius: 5px;
   background-color: var(--bg-secondary);
@@ -203,6 +202,10 @@ body {
   padding: 10px;
   border-left: 1px solid var(--border-color);
   transition: var(--transition-speed);
+}
+
+.page-links > a:first-child {
+  border-left: 0;
 }
 
 .page-links > a.link-active, .page-links > a:hover, .project-buttons > a > button:hover, .project-view-button:hover {
@@ -221,7 +224,6 @@ body {
 }
 
 /* About Component */
-
 .link-container {
   position: relative;
   background-color: var(--bg-secondary);
@@ -230,7 +232,6 @@ body {
   height: 100%;
   align-self: center;
   padding: 1.5rem;
-  opacity: 0.90;
   border-radius: 10px;
   overflow-y: scroll;
   animation: load 1s ease-in
@@ -271,7 +272,6 @@ img.profile {
 }
 
 /* Project Component */
-
 img.project-image {
   display: block;
   margin: auto;
@@ -383,11 +383,11 @@ img.project-image {
 /* Small screens */
 @media only screen and (max-width: 380px) {
 
-  .page-links {
-    display: flex;
+  /* .page-links { */
+    /* display: flex; */
     /* flex-direction: column; */
     /* flex-wrap: wrap; */
-  }
+  /* } */
 
   /* .page-links > a {
     color: inherit; 
@@ -405,17 +405,7 @@ img.project-image {
   } */
 
   .page-links > a {
-    color: inherit; 
-    font-weight: bold;
-    font-size: 1rem;
-    text-decoration: none;
     padding: 5px;
-    border-left: 1px solid var(--border-color);
-  }
-
-  /* removes left border of first child */
-  .page-links > a:first-child {
-    border-left: 0;
   }
 
   .content-title, .project-content-title, .blog-content-title, .resume-content-title {
@@ -432,18 +422,11 @@ img.project-image {
 
 /* Large screens */
 @media only screen and (min-width: 381px) {
-  
-  /* removes left border of first child */
-  .page-links > a:first-child {
-    border-left: 0;
-  }
-
   .content-title, .project-content-title, .blog-content-title, .resume-content-title {
     display: inline-block;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 20px;
   }
-  
 } 
 
 /* Scroll Bar */

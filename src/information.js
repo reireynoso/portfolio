@@ -43,6 +43,12 @@ const projects = [
 
 const blogs = [
     {
+        image: "https://miro.medium.com/fit/c/1400/420/0*vu5pZbwHCCKbkAPh.png",
+        title: "How to Deploy Multiple Apps Under a Single GitHub Repository to Heroku",
+        description: "This guide will cover how to deploy multiple applications under a single GitHub repository.",
+        link: "https://medium.com/better-programming/how-to-deploy-multiple-apps-under-a-single-github-repository-to-heroku-f6177489d38"
+    },
+    {
         image: "https://miro.medium.com/fit/c/1400/420/0*5dfbbmhUm_VTaowe",
         title: "How to Upload Files in a React and Rails App",
         description: "In this guide, we will cover how to upload images/videos in a React application.",

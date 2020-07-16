@@ -33,6 +33,11 @@ body {
   justify-content: center;
 }
 
+.content-title, .project-content-title, .blog-content-title, .resume-content-title {
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
 #linked-in, #medium-link, #medium-article-link {
   color: rgb(113, 113, 230);
   text-decoration: none;
@@ -90,7 +95,7 @@ body {
   margin: auto;
   /* margin-bottom: 5px; */
   opacity: 0.90;
-  animation: load 1s ease-in
+  /* animation: load 1s ease-in */
 }
 
 .home-icon > a{
@@ -191,7 +196,7 @@ body {
   border: 1px solid var(--border-color);
   border-radius: 5px;
   background-color: var(--bg-secondary);
-  animation: load 1s ease-in;
+  /* animation: load 1s ease-in; */
 }
 
 .page-links > a {
@@ -208,7 +213,7 @@ body {
   border-left: 0;
 }
 
-.page-links > a.link-active, .page-links > a:hover, .project-buttons > a > button:hover, .project-view-button:hover {
+.page-links > a.link-active, .page-links > a:hover, .project-buttons > a > button:hover, .project-view-button:hover, .resume-download:hover {
   background-color: var(--text-primary);
   color: var(--bg-primary);
   transition: var(--transition-speed) ease-in;
@@ -234,7 +239,14 @@ body {
   padding: 1.5rem;
   border-radius: 10px;
   overflow-y: scroll;
-  animation: load 1s ease-in
+}
+
+.link-container > * {
+  animation: load 1s ease-in;
+}
+
+.link-container > h1 {
+  animation: slideInLeft 1s ease-in;
 }
 
 img.profile {
@@ -356,7 +368,6 @@ img.project-image {
 }
 
 /* Resume Component */
-
 .resume-content-subtitle {
   text-transform: uppercase;
   text-align: center;
@@ -380,29 +391,21 @@ img.project-image {
   margin-bottom: 15px;
 }
 
+.resume-download {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  border: 2px solid var(--border-color);
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /* Small screens */
 @media only screen and (max-width: 380px) {
-
-  /* .page-links { */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-  /* } */
-
-  /* .page-links > a {
-    color: inherit; 
-    font-weight: bold;
-    font-size: 1rem;
-    text-decoration: none;
-    padding: 5px;
-    border-top: 1px solid var(--border-color);
-    text-align: center;
-  } */
-
-  /* removes top border of first child */
-  /* .page-links > a:first-child {
-    border-top: 0;
-  } */
 
   .page-links > a {
     padding: 5px;
@@ -411,7 +414,6 @@ img.project-image {
   .content-title, .project-content-title, .blog-content-title, .resume-content-title {
     width: fit-content;
     margin: auto;
-    border-bottom: 1px solid var(--border-color);
     margin-bottom: 20px;
   }
 
@@ -424,8 +426,6 @@ img.project-image {
 @media only screen and (min-width: 381px) {
   .content-title, .project-content-title, .blog-content-title, .resume-content-title {
     display: inline-block;
-    border-bottom: 1px solid var(--border-color);
-    margin-bottom: 20px;
   }
 } 
 

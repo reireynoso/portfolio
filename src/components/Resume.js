@@ -12,6 +12,7 @@ const Resume = ({location: {pathname}}) => {
         <Header pathname={pathname}/>
         <div className="link-container">
             <h1 className="resume-content-title">Resume</h1>
+            <a href="/reinald-resume.pdf" target="_blank" className="resume-download" download>Download Resume</a>
             <div className="education-container">
                 <h2 className="resume-content-subtitle">Education</h2>
                 {

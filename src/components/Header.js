@@ -1,8 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 
-const Header = ({pathname}) => {
-    const path = pathname.replace("/", "")
+const Header = () => {
     return (
         <div className="nav">
             <div className="page-links">

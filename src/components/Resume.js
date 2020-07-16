@@ -6,13 +6,15 @@ import Header from './Header'
 import WorkCard from './WorkCard'
 
 const Resume = ({location: {pathname}}) => {
+    console.log(process.env)
+    const route = process.env.NODE_ENV
     return (
         <>
         <HomeIcon />
         <Header pathname={pathname}/>
         <div className="link-container">
             <h1 className="resume-content-title">Resume</h1>
-            <a href="/reinald-resume.pdf" target="_blank" className="resume-download" download>Download Resume</a>
+            <a href={route === "production" ? "portfolio/reinald-resume.pdf" : "/reinald-resume.pdf"} target="_blank" className="resume-download" download>Download Resume</a>
             <div className="education-container">
                 <h2 className="resume-content-subtitle">Education</h2>
                 {

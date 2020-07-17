@@ -6,7 +6,6 @@ import Header from './Header'
 import WorkCard from './WorkCard'
 
 const Resume = ({location: {pathname}}) => {
-    console.log(process.env)
     const route = process.env.NODE_ENV
     return (
         <>

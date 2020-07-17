@@ -43,6 +43,12 @@ const projects = [
 
 const blogs = [
     {
+        image: "https://miro.medium.com/fit/c/1400/420/0*ngqSFJgQ1fkpW_1Y",
+        title: "How to add React Router to your React App",
+        description: "In this guide, we will cover how we can implement react-router into your React application.",
+        link: "https://medium.com/javascript-in-plain-english/how-to-add-react-router-to-your-react-app-bf764a776122"
+    },
+    {
         image: "https://miro.medium.com/fit/c/1400/420/0*vu5pZbwHCCKbkAPh.png",
         title: "How to Deploy Multiple Apps Under a Single GitHub Repository to Heroku",
         description: "This guide will cover how to deploy multiple applications under a single GitHub repository.",

@@ -18,7 +18,7 @@
 
 body {
   color: var(--text-primary);
-  /* background-color: var(--bg-primary) */
+  font-family: 'Open Sans', sans-serif;
   background: linear-gradient(to bottom, #bdc3c7 , #4c657e)
 }
 

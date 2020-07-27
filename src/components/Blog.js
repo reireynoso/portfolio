@@ -11,9 +11,11 @@ const Blog = ({location: {pathname}}) => {
         <Header pathname={pathname}/>
         <div className="link-container">
             <h1 className="blog-content-title">Blogs</h1>
-            {
-                information.blogs.map(blog => <BlogCard key={blog.title} blog={blog}/>)
-            }
+            <div className="blogs">
+                {
+                    information.blogs.map(blog => <BlogCard key={blog.title} blog={blog}/>)
+                }
+            </div>
         </div>
         </>
     )

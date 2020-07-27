@@ -38,17 +38,17 @@ body {
   margin-bottom: 20px;
 }
 
-#linked-in, #medium-link, #medium-article-link {
+#linked-in, .medium-link, .medium-article-link {
   color: rgb(113, 113, 230);
   text-decoration: none;
 }
 
-#medium-link:hover, #medium-article-link:hover {
+.medium-link:hover, .medium-article-link:hover {
   color: var(--text-primary);
   transition: 1s ease;
 }
 
-#medium-link {
+.medium-link {
   margin: 0;
 }
 
@@ -326,10 +326,10 @@ img.project-image {
   transition: 0.3s ease;
 }
 
-.project-container, .blog-container {
+/* .project-container, .blog-container {
   border-bottom: 1px solid var(--border-color);
   margin-bottom: 20px;
-}
+} */
 
 /* Blog Component */
 
@@ -348,7 +348,7 @@ img.project-image {
   margin-bottom: 10px;
 }
 
-#medium-logo {
+.medium-logo {
   margin-bottom: 0;
   text-decoration: none;
   color: inherit;
@@ -407,6 +407,11 @@ img.project-image {
 /* Small screens */
 @media only screen and (max-width: 380px) {
 
+  .project-container, .blog-container {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 20px;
+  }
+
   .page-links > a {
     padding: 5px;
   }
@@ -422,10 +427,72 @@ img.project-image {
   }
 }
 
-/* Large screens */
+/* Medium Screen */
+
+/* addressed screens from medium to larger screens */
+
 @media only screen and (min-width: 381px) {
   .content-title, .project-content-title, .blog-content-title, .resume-content-title {
     display: inline-block;
+  }
+
+  .project-container, .blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+} 
+
+/* addresses between medium screens and large screens */
+
+@media only screen and (min-width: 381px) and (max-width: 760px) {
+  .project-card, .blog-container {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 20px;
+  }
+} 
+
+/* Large screens */
+
+/* addressed large screens to x-large screens */
+@media only screen and (min-width: 760px) {
+  .blog-title {
+    height: 100px;
+  }
+
+  .project-title {
+    height: 66px;
+  }
+
+  .blog-description {
+    height: 180px;
+  }
+
+  .project-description {
+    height: 200px;
+  }
+
+  .project-card, .blog-container {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+  } 
+} 
+
+/* address between large screens to x-large screens */
+@media only screen and (min-width: 760px) and (max-width: 1015px) {
+  .project-card, .blog-container {
+    width: 40%;
+  }
+} 
+
+/* address x-large screens */
+@media only screen and (min-width: 1015px) {
+  .project-card, .blog-container {
+    position: relative;
+    width: 280px;
   }
 } 
 

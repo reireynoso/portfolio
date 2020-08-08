@@ -43,6 +43,12 @@ const projects = [
 
 const blogs = [
     {
+        image: "https://miro.medium.com/fit/c/1400/420/0*8wctPggHf--3OCrH",
+        title: "useRef in React",
+        description: "The useRef is a hook provided by React and is the equivalent of createRef which is used with class components.",
+        link: "https://medium.com/javascript-in-plain-english/implementing-useref-in-react-732908aa1998"
+    },
+    {
         image: "https://miro.medium.com/fit/c/1400/420/0*ngqSFJgQ1fkpW_1Y",
         title: "How to add React Router to your React App",
         description: "In this guide, we will cover how we can implement react-router into your React application.",

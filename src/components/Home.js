@@ -1,11 +1,9 @@
 import React from 'react'
 import Header from './Header'
-import Particles from 'react-particles-js';
 
 const Home = ({location: {pathname}}) => {
     return (
-        <div style={{position:"relative"}}>
-            <Particles/>
+        <div>
             <div className="home">
                 <div className="logo">
                     <i className="fas fa-laptop-code fa-3x"></i>
@@ -21,7 +19,6 @@ const Home = ({location: {pathname}}) => {
                     <a rel="noopener noreferrer" href="https://medium.com/@reireynoso" target="_blank"> <i className="fab fa-medium fa-2x"></i></a>
                 </div>
             </div>
-            {/* <Particles/> */}
         </div>
     )
 }

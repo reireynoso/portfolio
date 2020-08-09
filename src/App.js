@@ -6,10 +6,41 @@ import About from './components/About'
 import Project from './components/Project'
 import Blog from './components/Blog'
 import Resume from './components/Resume';
+import Particles from 'react-particles-js';
 
 const App = () => {
   return (
     <div className="App">
+        <Particles
+            params={{
+            		particles: {
+                  number: {
+                      value: 60,
+                  },
+            			line_linked: {
+                            width: 2
+            			}
+                },
+                interactivity: {
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "repulse"
+                        }
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 200,
+                            "opacity": 1
+                        }
+                    }
+                }
+            }}
+          />
         <Switch>
           <Route path="/resume" component={Resume}/>
           <Route path="/blogs" component={Blog}/>

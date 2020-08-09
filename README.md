@@ -28,3 +28,7 @@ From your terminal,
 # Built With
 * React
 * Pure CSS
+
+# Tools
+* React-router 
+* Particles.js (React component)

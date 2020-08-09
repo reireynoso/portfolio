@@ -4,12 +4,12 @@ import ProjectCard from './ProjectCard'
 import Header from './Header'
 import information from '../information'
 
-const Project = ({location: {pathname}}) => {
+const Project = () => {
 
     return (
         <>
         <HomeIcon />
-        <Header pathname={pathname}/>
+        <Header />
         <div className="link-container">
             <h1 className="project-content-title">Projects</h1>
             

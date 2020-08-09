@@ -10,7 +10,7 @@ import Particles from 'react-particles-js';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App">      
         <Particles
             params={{
             		particles: {

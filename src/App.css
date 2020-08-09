@@ -117,7 +117,7 @@ body {
   color: inherit;
   display: block;
   align-self: center;
-  margin-right: 15px;
+  margin-left: 10px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -202,6 +202,41 @@ body {
   justify-content: center;
 }
 
+.dropdown {
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-select {
+  display: none;
+  /* text-align-last: center; */
+  outline-color: #4c657e;
+  width: 120px;
+  height: 25px;
+  font-size: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: var(--bg-secondary);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 2px solid #213063;
+  color: var(--text-primary);
+  padding: 3px 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: var(--transition-speed) ease-in
+}
+
+.dropdown-icon {
+  display: none;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  pointer-events: none;
+  padding-left: 5px;
+}
+
 .nav {
   padding: 5px 0;
 }
@@ -229,7 +264,12 @@ body {
   border-left: 0;
 }
 
-.page-links > a.link-active, .page-links > a:hover, .project-buttons > a > button:hover, .project-view-button:hover, .resume-download:hover {
+.page-links > a.link-active, 
+.page-links > a:hover, 
+.project-buttons > a > button:hover, 
+.project-view-button:hover, 
+.resume-download:hover, 
+.dropdown-select:hover {
   background-color: var(--text-primary);
   color: var(--bg-primary);
   transition: var(--transition-speed) ease-in;

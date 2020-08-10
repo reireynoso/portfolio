@@ -2,7 +2,7 @@ import React from 'react'
 import HomeIcon from './HomeIcon'
 import information from '../information'
 import EducationCard from './EducationCard'
-import Header from './Header'
+// import Header from './Header'
 import WorkCard from './WorkCard'
 
 const Resume = () => {
@@ -10,7 +10,7 @@ const Resume = () => {
     return (
         <>
         <HomeIcon />
-        <Header />
+        {/* <Header /> */}
         <div className="link-container">
             <h1 className="resume-content-title">Resume</h1>
             <a rel="noopener noreferrer" href={route === "production" ? "/portfolio/reinald-resume.pdf" : "/reinald-resume.pdf"} target="_blank" className="resume-download" download>Download Resume</a>

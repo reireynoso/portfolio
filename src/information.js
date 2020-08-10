@@ -241,10 +241,158 @@ const work = [
     }
 ]
 
+const labs = [
+    {
+        title: "Photo Uploader JS",
+        link: "https://github.com/reireynoso/photo_uploader_lab_js",
+        topic: "javascript"
+    },
+    {
+        title: "Todo List Lite React",
+        link: "https://github.com/reireynoso/todo-list-lab-lite",
+        topic: "react"
+    },
+    {
+        title: "Photo Uploader React",
+        link: "https://github.com/reireynoso/react-photo-lab",
+        topic: "react"
+    },
+    {
+        title: "ECommerce React",
+        link: "https://github.com/reireynoso/react-ecommerce-lab",
+        topic: "react"
+    },
+    {
+        title: "Debugging in React",
+        link: "https://github.com/reireynoso/react-debugging",
+        topic: "react"
+    },
+    {
+        title: "Todo List CRUD React",
+        link: "https://github.com/reireynoso/react-todo-mock-cc",
+        topic: "react"
+    },
+    {
+        title: "Spread Operator JS",
+        link: "https://github.com/reireynoso/spread_operator_lecture_js",
+        topic: "javascript"
+    },
+    {
+        title: "Course App Rails",
+        link: "https://github.com/reireynoso/course-app-rails-lecture",
+        topic: "rails"
+    },
+    {
+        title: "Hooks React",
+        link: "https://github.com/reireynoso/react-hooks-lecture",
+        topic: "react"
+    },
+    {
+        title: "Closures Javascript",
+        link: "https://github.com/reireynoso/closure-lesson-plan",
+        topic: "javascript"
+    },
+    {
+        title: "Pair Programming I",
+        link: "https://github.com/reireynoso/pair-programming-workshop-lab",
+        topic: "ruby"
+    },
+    {
+        title: "Pair Programming II",
+        link: "https://github.com/reireynoso/pair-programming-workshop-mod2",
+        topic: "rails"
+    }
+]
+
+const lectures = [
+    {
+        title: "Toy Tale Review Part 1 Dumbo Web 082619",
+        image: "https://i.ytimg.com/vi/1I3GAlCwYrM/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBr_mwoIrkoEOO3kCZClE1xxjx67w",
+        link: "https://www.youtube.com/watch?v=1I3GAlCwYrM&t=1s"
+    },
+    {
+        title: "Toy Tale Review Part 2 Dumbo Web 082619",
+        image: "https://i.ytimg.com/vi/9COH6pvKGsc/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDIw4hB5Q5uBb3Bz7R4VUr6aYA9XA",
+        link: "https://www.youtube.com/watch?v=9COH6pvKGsc&t=126s"
+    },
+    {
+        title: "Course Rails App Review 082619",
+        image: "https://i.ytimg.com/vi/aAB_--vt6iM/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDM4lF4cIOnQQJILq6Guo11yM2Hcg",
+        link: "https://www.youtube.com/watch?v=aAB_--vt6iM"
+    },
+    {
+        title: "CLI Setup 082619",
+        image: "https://i.ytimg.com/vi/e4CNuvTNQRw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAlTs_7GSaZth5SzQwE-8ea_bzrkg",
+        link: "https://www.youtube.com/watch?v=e4CNuvTNQRw&t=6s"
+    },
+    {
+        title: "Spread Operator 082619",
+        image: "https://i.ytimg.com/vi/e1leGDBsoEk/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBftNtjyi6FZy4Wjjg-xKsx3Rhu_g",
+        link: "https://www.youtube.com/watch?v=e1leGDBsoEk"
+    },
+    {
+        title: "Destructuring 082619",
+        image: "https://i.ytimg.com/vi/x0ghwhSHDjo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC_fG5x9UKwWxE4O-KLyywhdTl3Gw",
+        link: "https://www.youtube.com/watch?v=x0ghwhSHDjo&t=2s"
+    },
+    {
+        title: "Hogwarts React Review 082619",
+        image: "https://i.ytimg.com/vi/fuLIhxHSw0k/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC3CLBBk_jUgotI4uehfPw7Zh2A5A",
+        link: "https://www.youtube.com/watch?v=fuLIhxHSw0k"
+    },
+    {
+        title: "Toy Tales Vanilla JS Review 111819",
+        image: "https://i.ytimg.com/vi/VixFTCt4EbI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBsNg1EuS48futj4qTkWAiSOPpEhw",
+        link: "https://www.youtube.com/watch?v=VixFTCt4EbI"
+    },
+    {
+        title: "Spread Operator ES6 JS 111819",
+        image: "https://i.ytimg.com/vi/ASzyIRiL_EI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB_02z5PiquhuG20BiG09WFppQakg",
+        link: "https://www.youtube.com/watch?v=ASzyIRiL_EI"
+    },
+    {
+        title: "Destructure ES6 JS 111819",
+        image: "https://i.ytimg.com/vi/ZeK1FDIod4E/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBA-TMTp9AOFPW3ciUnWHglf7ITWQ",
+        link: "https://www.youtube.com/watch?v=ZeK1FDIod4E"
+    },
+    {
+        title: "React Review ToDoList 111819",
+        image: "https://i.ytimg.com/vi/gIVeZLgI9BE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAT-CxnHmfm5SuCJP2uDZsLLRKM7g",
+        link: "https://www.youtube.com/watch?v=gIVeZLgI9BE"
+    },
+    {
+        title: "React Hooks  111819",
+        image: "https://i.ytimg.com/vi/JOOeBEE9hMg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBIc1NzBRaPJviNEAoQKbD-xTw6Kw",
+        link: "https://www.youtube.com/watch?v=JOOeBEE9hMg&t=1s",
+    },
+    {
+        title: "Ruby Art Gallery Review 030920",
+        image: "https://i.ytimg.com/vi/BBbBXL1yv6c/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAQwjVLgYKfUGBF5qFK8wm4VnmlMA",
+        link: "https://www.youtube.com/watch?v=BBbBXL1yv6c"
+    },
+    {
+        title: "Ruby Silicon Valley Review 030920",
+        image: "https://i.ytimg.com/vi/fKHbfJyOHOQ/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCRM-LAqeepcE7DsWGgPwY3CLxGKw",
+        link: "https://www.youtube.com/watch?v=fKHbfJyOHOQ"
+    },
+    {
+        title: "Ruby on Rails Course App Review 030920",
+        image: "https://i.ytimg.com/vi/OXaPhyAHH0k/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDDxbgBNQQtXrpcSZ_zjRTivZwHjg",
+        link: "https://www.youtube.com/watch?v=OXaPhyAHH0k"
+    },
+    {
+        title: "React Hogwarts Review 042020",
+        image: "https://i.ytimg.com/vi/2OJlEeSvbe4/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCEmjDOmLPqvxWetZwaZnH3wosxeA",
+        link: "https://www.youtube.com/watch?v=2OJlEeSvbe4"
+    }
+]
+
 export default {
     projects,
     blogs,
     education,
-    work
+    work,
+    labs,
+    lectures
 }
 

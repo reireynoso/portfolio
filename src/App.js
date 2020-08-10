@@ -6,6 +6,7 @@ import About from './components/About'
 import Project from './components/Project'
 import Blog from './components/Blog'
 import Resume from './components/Resume';
+import CodingContent from './components/CodingContent'
 // import Header from './components/Header'
 import AnimateComponent from './components/AnimateComponent'
 import Particles from 'react-particles-js';
@@ -27,7 +28,7 @@ const App = () => {
                     <NavLink onClick={() => setShowHeader(false)} className="links" activeClassName="link-active" exact to="/">Home</NavLink>
                     <NavLink onClick={() => setShowHeader(false)} className="links" activeClassName="link-active" to="/about">About</NavLink>
                     <NavLink onClick={() => setShowHeader(false)} className="links" activeClassName="link-active" to="/projects">Projects</NavLink>
-                    {/* <NavLink onClick={() => setShowHeader(false)} className="links" activeClassName="link-active" to="/content">Content</NavLink> */}
+                    <NavLink onClick={() => setShowHeader(false)} className="links" activeClassName="link-active" to="/content">Content</NavLink>
                     <NavLink onClick={() => setShowHeader(false)} className="links" activeClassName="link-active" to="/blogs">Blogs</NavLink>
                     <NavLink onClick={() => setShowHeader(false)} className="links" activeClassName="link-active" to="/resume">Resume</NavLink>
                 </div>
@@ -66,6 +67,7 @@ const App = () => {
         <Switch>
           <Route path="/resume" component={Resume}/>
           <Route path="/blogs" component={Blog}/>
+          <Route path="/content" component={CodingContent}/>
           <Route path="/projects" component={Project}/>
           <Route path="/about" component={About}/>
           <Route exact path="/" component={Home}/> 

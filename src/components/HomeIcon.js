@@ -1,12 +1,8 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
 
 const HomeIcon = () => {
     return (
         <div className="home-icon">
-            {/* <Link to="/">
-                <i className="fas fa-home fa-2x"></i>
-            </Link> */}
             <a rel="noopener noreferrer" href="https://www.linkedin.com/in/reinald-reynoso622/" target="_blank">
                 <i className="fab fa-linkedin fa-2x"></i>
             </a>

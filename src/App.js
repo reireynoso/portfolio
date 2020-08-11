@@ -1,18 +1,18 @@
 import React, {useState} from 'react';
 import { Route, Switch, NavLink } from 'react-router-dom'
+import {IoMdClose, IoMdMenu} from 'react-icons/io'
+import {FaUserCircle, FaTerminal, FaFileAlt, FaPenFancy, FaHome, FaBookReader} from 'react-icons/fa'
 import './App.css';
+import Particles from 'react-particles-js';
 import Home from './components/Home'
 import About from './components/About'
 import Project from './components/Project'
 import Blog from './components/Blog'
 import Resume from './components/Resume';
 import CodingContent from './components/CodingContent'
-// import Header from './components/Header'
 import AnimateComponent from './components/AnimateComponent'
 import NoRoute from './components/NoRoute'
-import Particles from 'react-particles-js';
-import {IoMdClose, IoMdMenu} from 'react-icons/io'
-import {FaUserCircle, FaTerminal, FaFileAlt, FaPenFancy, FaHome, FaBookReader} from 'react-icons/fa'
+
 
 const App = () => {
   const [showHeader, setShowHeader] = useState(false)

@@ -10,7 +10,6 @@ const Resume = () => {
     return (
         <>
         <HomeIcon />
-        {/* <Header /> */}
         <div className="link-container">
             <h1 className="resume-content-title">Resume</h1>
             <a rel="noopener noreferrer" href={route === "production" ? "/portfolio/reinald-resume.pdf" : "/reinald-resume.pdf"} target="_blank" className="resume-download" download>Download Resume</a>

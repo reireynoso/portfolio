@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeIcon from './HomeIcon';
-// import Header from './Header'
+
 import BlogCard from './BlogCard'
 import information from '../information'
 
@@ -8,7 +8,6 @@ const Blog = () => {
     return(
         <>
         <HomeIcon/>
-        {/* <Header/> */}
         <div className="link-container">
             <h1 className="blog-content-title">Blogs</h1>
             <div className="blogs">

@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-// import Header from './Header'
 import HomeIcon from './HomeIcon'
 import {DiRor, DiRuby, DiJavascript1, DiCss3, DiHtml5, DiGithubBadge, DiReact, DiNodejs} from 'react-icons/di'
 
@@ -8,7 +7,6 @@ const About = () => {
     return (
             <>
             <HomeIcon/>
-            {/* <Header/> */}
             <div className="link-container">
                     <h1 className="content-title">About Me</h1>
                     <div className="content-info">

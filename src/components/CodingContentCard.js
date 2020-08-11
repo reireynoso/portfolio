@@ -1,6 +1,7 @@
 import React from 'react'
 import {DiRor, DiRuby, DiJavascript1, DiGithubBadge, DiReact} from 'react-icons/di'
 import {AiOutlineYoutube} from 'react-icons/ai'
+
 const CodingContentCard = ({content: {title, image, link, topic}}) => {
     const determineProgrammingIcon = () => {
         switch(topic){

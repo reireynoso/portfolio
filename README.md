@@ -32,8 +32,3 @@ From your terminal,
 # Tools
 * React-router 
 * Particles.js (React component)
-
-# To Add
-* Icons next to the nav links
-* Update Information with labs and lectures (add components as well)
-* Update About Me adding info about content

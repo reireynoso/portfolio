@@ -448,7 +448,7 @@ img.project-image {
   margin-bottom: 15px;
 }
 
-.resume-download {
+.resume-download, .redirect-link {
   display: block;
   text-decoration: none;
   color: inherit;
@@ -461,6 +461,11 @@ img.project-image {
   border-radius: 5px;
 }
 
+.redirect-link {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
 /* Content Container */
 
 .lectures-container, .labs-container {
@@ -470,7 +475,8 @@ img.project-image {
 }
 
 .coding-content-card {
-  margin-bottom: 15px;
+  margin: 10px;
+  /* border: 1px solid white; */
 }
 
 .coding-content__image {
@@ -489,6 +495,7 @@ img.project-image {
   display: flex;
   background: black;
   transition: 0.3s ease-in;
+  margin-bottom: 5px;
 }
 
 .coding-content__container:hover > .coding-content__title {
@@ -573,7 +580,6 @@ img.project-image {
   }
 } 
 
-
 /* addresses between medium screens and large screens */
 
 @media only screen and (min-width: 381px) and (max-width: 760px) {
@@ -591,7 +597,7 @@ img.project-image {
   }
 } 
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 720px) {
   .lectures-container, .labs-container {
     justify-content: center;
   }

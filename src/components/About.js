@@ -32,7 +32,7 @@ const About = () => {
                         <br/>
                         <br/>
 
-                        I take pride in my work ethic. I have always put in my best effort into what I do whether it is for personal growth or helping others grow. Once I set my mind into goal, I become absorbed and dedicated to accomplishing it. I consider myself a flexible individual. I am capable of doing things by myself and I can also work with others to complete a goal. 
+                        I take pride in my work ethic. I have always put in my best effort into what I do whether it is for personal growth or helping others grow. Once I set my mind into goal, I become absorbed and dedicated to accomplishing it. I consider myself a flexible individual. I am capable of doing things by myself and I can also work with others to complete a goal. I enjoy creating content related to programming through blogs, lecture videos, and Github labs.
 
                         <br/>
                         <br/>

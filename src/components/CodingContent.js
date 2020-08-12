@@ -1,13 +1,10 @@
 import React from 'react'
-import HomeIcon from './HomeIcon'
 import CodingContentCard from './CodingContentCard'
 import information from '../information'
 
 const CodingContent = () => {
     const {labs, lectures} = information
     return (
-        <>
-        <HomeIcon />
         <div className="link-container">
             <h1 className="coding-content-title">Content</h1>
             
@@ -25,7 +22,6 @@ const CodingContent = () => {
                 }
             </div>
         </div>
-        </>
     )
 }
 

@@ -32,3 +32,5 @@ From your terminal,
 # Tools
 * React-router 
 * Particles.js (React component)
+* React Icons
+* 

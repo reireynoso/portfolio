@@ -242,16 +242,35 @@ body {
   justify-content: center;
 }
 
-.nav-open {
+.nav-icon {
   color: var(--bg-primary);
-  z-index: 1;
+  z-index: 20;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
 }
 
-.nav-close, .nav-open {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  cursor: pointer;
+/* Icon Nav */
+.btn-line{
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: black;
+  transition: 0.5s ease;
+  transform: rotate(-180deg);
+}
+
+/* Each icon line  */
+
+.btn-line.open:nth-child(1){
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.btn-line.open:nth-child(2){
+  opacity: 0;
+}
+.btn-line.open:nth-child(3){
+  transform: rotate(-45deg) translate(7px, -6px);
 }
 
 .nav-links {
@@ -673,82 +692,3 @@ img.project-image {
   background: #555;
 } */
 
-/* Header Component */
-/* .nav, .page-links,  */
-/* .logo {
-  display: flex;
-  justify-content: center;
-} */
-
-/* .page-links > a.link-active, 
-.page-links > a:hover,  */
-/* .project-buttons > a > button:hover, 
-.project-view-button:hover, 
-.resume-download:hover, 
-.dropdown-select:hover {
-  background-color: var(--text-primary);
-  color: var(--bg-primary);
-  transition: var(--transition-speed) ease-in;
-} */
-
-/* .dropdown { */
-  /* position: relative; */
-  /* z-index: 1; */
-/* } */ 
-
-/* .dropdown-select { */
-  /* display: none; */
-  /* text-align-last: center; */
-  /* outline-color: #4c657e;
-  width: 120px;
-  height: 25px;
-  font-size: 100%;
-  font-weight: bold;
-  cursor: pointer;
-  background-color: var(--bg-secondary);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom: 2px solid #213063;
-  color: var(--text-primary);
-  padding: 3px 5px;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  transition: var(--transition-speed) ease-in
-} */
-
-/* .dropdown-icon {
-  display: none;
-  position: absolute;
-  top: 3px;
-  right: 10px;
-  pointer-events: none;
-  padding-left: 5px;
-}
-
-.nav {
-  padding: 5px 0;
-} */
-
-/* .page-links {
-  border: 1px solid var(--border-color);
-  border-radius: 5px;
-  background-color: var(--bg-secondary);
-  position: relative;
-  z-index: 1; */
-  /* animation: load 1s ease-in; */
-/* } */
-
-/* .page-links > a {
-  color: inherit; 
-  font-weight: bold;
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 10px;
-  border-left: 1px solid var(--border-color);
-  transition: var(--transition-speed);
-} */
-
-/* .page-links > a:first-child {
-  border-left: 0;
-} */

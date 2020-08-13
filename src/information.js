@@ -2,7 +2,7 @@ const projects = [
     {
         title: "uMessenger",
         projectImage: "https://media.giphy.com/media/kgUwn2MdM5krxFmYtW/giphy.gif",
-        description: "uMessage is a full-stack chat application that allows you to send messages to other users by email address. Previous conversations that be filtered out by name. The design of the application is inspired by iMessage and Slack.",
+        description: "uMessage is a full-stack chat application that allows you to send messages and video chat other users by email address. The design of the application is inspired by iMessage and Slack. Client-side built with React. Server-side built with NodeJS, and Express.",
         demoLink: "",
         repoLink: "https://github.com/reireynoso/umessenger-app",
         siteLink: "https://umessenger-frontend.herokuapp.com/"
@@ -10,7 +10,7 @@ const projects = [
     {
         title: "L.M.S",
         projectImage: "https://media.giphy.com/media/UTGw6xYVj2A61O7Mc5/giphy.gif",
-        description: "Learning Management System is a learning platform designed for teachers and students. Users can register as teachers, students or both. The app is designed to foster collaboration and learning. Server-server is built with Ruby on Rails. Client-side is built with React.",
+        description: "Learning Management System is a learning platform designed for teachers and students. Users can register as teachers, students or both. The app is designed to foster collaboration and learning. Server-side is built with Ruby on Rails. Client-side is built with React.",
         demoLink: "https://www.youtube.com/watch?v=WxmL6egpkKs&feature=youtu.be",
         repoLink: "https://github.com/reireynoso/learning-management-system-project",
         siteLink: "https://lms-react.herokuapp.com/"

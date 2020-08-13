@@ -22,7 +22,7 @@ const About = () => {
                     <Link className="project-view-button" to="/projects">View Projects</Link>
 
                     <p className="content-intro">
-                    Full Stack Web Developer with a proficiency in the following: Javascript, Ruby, React, Ruby on Rails, HTML/CSS as the Software Engineering Coach for Flatiron School. I have experience with web applications, pair programming and team collaboration. 
+                    Full Stack Web Developer with a proficiency in the following: Javascript, NodeJS, ExpressJS, Ruby, React, Ruby on Rails, HTML/CSS as the Software Engineering Coach for Flatiron School. I have experience with web applications, pair programming and team collaboration. 
                     
                     <br/>
                     <br/>

@@ -33,4 +33,3 @@ From your terminal,
 * React-router 
 * Particles.js (React component)
 * React Icons
-* 

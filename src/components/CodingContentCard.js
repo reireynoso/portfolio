@@ -29,7 +29,7 @@ const CodingContentCard = ({content: {title, image, link, topic}}) => {
         <div className="coding-content-card">
             <div className="coding-content__container">
                 {
-                    image ? <img className="coding-content__image" src={image} alt={title}/> : <div className="content-icon-container">{determineProgrammingIcon()}</div>
+                    image ? <div className="coding-content__image" style={{backgroundImage: `url(${image})`}}></div> : <div className="content-icon-container">{determineProgrammingIcon()}</div>
                 }
                 <div className="coding-content__title">
                     {title}

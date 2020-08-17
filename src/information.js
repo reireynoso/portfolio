@@ -205,11 +205,11 @@ const work = [
         title: "Software Engineering Coach",
         company_year: "WeWork X Flatiron School | Aug 2019 - Current",
         duties: [
-            "Delivered lectures and workshops with Javascript, Ruby, React, Ruby on Rails, and HTML/CSS",
-            "Identify, deploy, and create content for the coming week to meet the predefined learning objectives, create/iterate/review assessments to diagnose student strengths and weaknesses",
-            "Assist students and staff with real time efforts, through different means such as debugging, and pair programming to solve a coding challenge  and providing guidance, advice, and resources",
-            "Build new units such labs, assessments, blogs, and readme's to contribute to the curriculum",
-            "Ran workshops introducing beginner coders to front-end web development with Javascript, HTML and CSS"
+            "Present lectures on Javascript, Ruby, React, Ruby on Rails, and HTML/CSS",
+            "Identify/deploy content to meet the predefined learning objectives, and review assessments to diagnose student strengths and weaknesses",
+            "Troubleshoot with students and staff through different means such as debugging, and pair programming to solve a coding challenge and providing guidance, advice, and resources",
+            "Create new units such labs, assessments, blogs, and readmes to contribute to the curriculum",
+            "Lead workshops introducing beginner coders to front-end web development with Javascript, HTML and CSS"
         ]
     },
     {
@@ -225,9 +225,9 @@ const work = [
         title: "Mathematics Teacher",
         company_year: "Jersey City Board of Education | Oct 2013 - Jan 2018",
         duties: [
-            "Develop intriguing lessons that actively engaged learners, reinforced problem-solving and critical thinking skills, and prepared students for state exams",
+            "Developed intriguing lessons that actively engaged learners, reinforced problem-solving and critical thinking skills, and prepared students for state exams",
             "Administered formal and informal assessments on a consistent basis to track student progress while at the same time utilizing results to enhance students’ performance",
-            "Worked with students to develop and maintain classroom rules/procedures to maintain a positive learning environment"
+            "Coordinated with students to develop and maintain classroom rules/procedures to maintain a positive learning environment"
         ]
     },
     {

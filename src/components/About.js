@@ -22,17 +22,28 @@ const About = () => {
                     <Link className="project-view-button" to="/projects">View Projects</Link>
 
                     <p className="content-intro">
-                    Full Stack Web Developer with a proficiency in the following: Javascript, NodeJS, ExpressJS, Ruby, React, Ruby on Rails, HTML/CSS as the Software Engineering Coach for Flatiron School. I have experience with web applications, pair programming and team collaboration. 
+                    
+                    <span id="statement">I am a full stack web developer with a passion for UI design and commitment to education.</span>
+
+                    <br/>
+                    <br/>
+                    
+                    I have experience with pair programming, team collaboration and developing web applications with Javascript, NodeJS, ExpressJS, Ruby, React, Ruby on Rails, HTML/CSS, RESTful API architecture and MVC paradigm. I relish creating content related to programming through blogs, lecture videos, and Github labs to educate coders in the community.
                     
                     <br/>
                     <br/>
 
-                    I take pride in my work ethic. I have always put in my best effort into what I do whether it is for personal growth or helping others grow. Once I set my mind into goal, I become absorbed and dedicated to accomplishing it. I consider myself a flexible individual. I am capable of doing things by myself and I can also work with others to complete a goal. I enjoy creating content related to programming through blogs, lecture videos, and Github labs.
+                    I bring strong skills in instruction, management, and communication as well as an exceptional background with complex problem solving and educational technology implementation. I also have four years experience teaching middle school math, and have earned a Bachelor’s Degree in Mathematics, and a Master’s Degree in Educational Technology. 
+                    
+                    <br/>
+                    <br/>
+
+                    I take pride in my work ethic. I have always put in my best effort into what I do whether it is for personal growth or helping others grow. Once I set my mind into goal, I become absorbed and dedicated to accomplishing it. I consider myself a flexible individual. I am capable of doing things by myself and I can also work with others to complete a goal. 
 
                     <br/>
                     <br/>
 
-                    I bring strong skills in management, instruction and communication as well as an exceptional background with complex problem solving and educational technology implementation. I also have four years experience teaching middle school math, and have earned a Bachelor’s Degree in Mathematics, and a Master’s Degree in Educational Technology. 
+                    As a web developer, I enjoy using my attention to detail, my love for creating things, and my work ethic to have a positive impact on others. 
 
                     <br/>
                     <br/>

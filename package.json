@@ -1,5 +1,6 @@
 {
   "homepage": "https://reireynoso.github.io/",
+  "main": "public/index.html",
   "name": "reireynoso.github.io",
   "version": "0.1.0",
   "private": true,

@@ -3,7 +3,7 @@ const projects = [
         title: "uMessenger",
         projectImage: "https://media.giphy.com/media/kgUwn2MdM5krxFmYtW/giphy.gif",
         description: "uMessage is a full-stack chat application that allows you to send messages and video chat other users by email address. The design of the application is inspired by iMessage and Slack. Client-side built with React. Server-side built with NodeJS, and Express.",
-        demoLink: "",
+        demoLink: "https://youtu.be/IotlnG6wMZY",
         repoLink: "https://github.com/reireynoso/umessenger-app",
         siteLink: "https://umessenger-frontend.herokuapp.com/"
     },

@@ -28,7 +28,7 @@ const About = () => {
                     <br/>
                     <br/>
                     
-                    I have experience with pair programming, team collaboration and developing web applications with Javascript, NodeJS, ExpressJS, Ruby, React, Ruby on Rails, HTML/CSS, RESTful API architecture and MVC paradigm. I relish creating content related to programming through blogs, lecture videos, and Github labs to educate coders in the community.
+                    I have experience with pair programming, team collaboration and developing web applications with Javascript, NodeJS, ExpressJS, Ruby, React, Ruby on Rails, HTML/CSS, RESTful API architecture and MVC paradigm. I relish creating content related to programming through blogs, lecture videos, and Github labs to contribute resources to the coding community.
                     
                     <br/>
                     <br/>

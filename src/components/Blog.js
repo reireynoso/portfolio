@@ -4,7 +4,6 @@ import TopicSelector from './TopicSelector'
 import information from '../information'
 
 const Blog = () => {
-
     return(
         <div className="link-container">
             <h1 className="blog-content-title">Blogs</h1>

@@ -23,7 +23,7 @@ const App = () => {
         <HomeIcon />
         <Switch>
           <Route path="/resume" component={Resume}/>
-          <Route path="/blogs/" component={Blog}/>
+          <Route path="/blogs" component={Blog}/>
           <Route path="/content" component={CodingContent}/>
           <Route path="/projects" component={Project}/>
           <Route path="/about" component={About}/>

@@ -1,5 +1,21 @@
 const projects = [
     {
+        title: "codingBlogs",
+        projectImage: "https://media.giphy.com/media/PMkwsgAg9FLTb9EjoE/giphy.gif",
+        description: "codingBlogs is a blogs management system. Users can post their blogs related to programming to share with the community.",
+        demoLink: "https://youtu.be/2BORCJJZJNc",
+        repoLink: "https://github.com/reireynoso/fis-blogs-client",
+        siteLink: "https://codingblogs.net/"
+    },
+    {
+        title: "Amazon Clone",
+        projectImage: "https://media.giphy.com/media/MXDefshSmSeyh6Bi57/giphy.gif",
+        description: "App emulating Amazon's basic interface. Built with React and Firebase. Express is utilized for handling payments with Stripe API.",
+        demoLink: "https://youtu.be/J0UFTz_CFvc",
+        repoLink: "https://github.com/reireynoso/amazon-clone",
+        siteLink: "https://clone-7b1aa.web.app/"
+    },
+    {
         title: "uMessenger",
         projectImage: "https://media.giphy.com/media/kgUwn2MdM5krxFmYtW/giphy.gif",
         description: "uMessage is a full-stack chat application that allows you to send messages and video chat other users by email address. The design of the application is inspired by iMessage and Slack. Client-side built with React. Server-side built with NodeJS, and Express.",
@@ -42,6 +58,48 @@ const projects = [
 ]
 
 const blogs = [
+    {
+        image: "https://miro.medium.com/fit/1400/420/1*bNrkK5WfvHQ8V5NBDGj06w.jpeg",
+        title: "JavaScript Basics: call, bind, and apply",
+        description: "In this post, we will discuss the following methods: call, bind, and apply. But before we jump into it, let’s first cover the variable that benefits from these methods, this.",
+        topic: 'javascript',
+        link: "https://javascript.plainenglish.io/javascript-basics-call-bind-and-apply-f1e425026f88"
+    },
+    {
+        image: "https://miro.medium.com/fit/1400/420/1*bNrkK5WfvHQ8V5NBDGj06w.jpeg",
+        title: "JavaScript Basics: Objects and Functions",
+        description: "In this post, we will cover the concepts of object and function in JavaScript.",
+        topic: 'javascript',
+        link: "https://javascript.plainenglish.io/javascript-basics-objects-and-functions-30726efc766d"
+    },
+    {
+        image: "https://miro.medium.com/fit/1400/420/1*erVqlTKQ7b1wnZhdBRMNKQ.jpeg",
+        title: "Teaching Middle School Math to Being a Full Stack Software Engineer",
+        description: "I’ve recently received my first offer as a Software Engineer for a great company after 3 months of job searching. As I’ve finally reached my goal, I wanted to take some time to reflect on my journey leading up to this moment.",
+        topic: 'advice',
+        link: "https://medium.com/the-ascent/from-teaching-middle-school-math-to-being-a-full-stack-software-engineer-cffc831986b0"
+    },
+    {
+        image: "https://miro.medium.com/fit/1400/420/1*bNrkK5WfvHQ8V5NBDGj06w.jpeg",
+        title: "JavaScript Basics: Execution Context",
+        description: "In this post, we will cover what happens when we compile and execute JavaScript code.",
+        topic: 'javascript',
+        link: "https://javascript.plainenglish.io/javascript-basics-execution-context-bd79ede1ccdd"
+    },
+    {
+        image: "https://miro.medium.com/fit/1400/420/1*bNrkK5WfvHQ8V5NBDGj06w.jpeg",
+        title: "JavaScript Basics: Types and Coercion",
+        description: "In this post, we will discuss the basic data types of JavaScript and the idea of coercion.",
+        topic: 'javascript',
+        link: "https://javascript.plainenglish.io/javascript-basics-types-and-coercion-3a48ce667e39"
+    },
+    {
+        image: "https://miro.medium.com/fit/c/1400/420/0*QLAEhdGs5DzxlN1C",
+        title: "Implementing Context API in a React Application",
+        description: "If you have experience working with React, then you’re familiar with the idea of storing data in state . Each component can have its own state, but ideally, the top level component will contain the main data.",
+        topic: 'react',
+        link: "https://javascript.plainenglish.io/implementing-context-api-in-a-react-application-8b9b156a4154"
+    },
     {
         image: "https://miro.medium.com/fit/c/1400/420/0*8wctPggHf--3OCrH",
         title: "useRef in React",
